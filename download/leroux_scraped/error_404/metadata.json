@@ -1,0 +1,306 @@
+{
+  "id": "error_404",
+  "name": "Error 404",
+  "url": "https://leroux.qodeinteractive.com/404-error-page",
+  "title": "Page not found – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/style.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qode-zendesk-chat//assets/main.css?ver=6.9.4"
+  ],
+  "computed_styles": {
+    "body": {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "color": "rgb(38, 48, 55)",
+      "fontFamily": "Heebo, sans-serif",
+      "fontSize": "15px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "header": {
+      "backgroundColor": "rgba(99, 99, 99, 0)",
+      "color": "rgb(38, 48, 55)",
+      "fontFamily": "Heebo, sans-serif",
+      "fontSize": "15px",
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "main": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 48, 55)",
+      "fontFamily": "Heebo, sans-serif",
+      "fontSize": "15px",
+      "padding": "0px",
+      "margin": "0px"
+    }
+  },
+  "text_content": [
+    {
+      "heading": "",
+      "text": "RELATED\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\tBUY NOW\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tQode Interactive\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tRelated Themes\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tStartPro\n\t\t\t\t\t\t\t\t\t\tbusiness\n\t\t\t\t\t\t\t\t\t\t$89\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tSolvent\n\t\t\t\t\t\t\t\t\t\tbusiness\n\t\t\t\t\t\t\t\t\t\t$89\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t"
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "https://leroux.qodeinteractive.com/404-error-page#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Advisory Home",
+      "href": "https://leroux.qodeinteractive.com/advisory-home/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Fullscreen Slider",
+      "href": "https://leroux.qodeinteractive.com/fullscreen-slider/"
+    },
+    {
+      "text": "Coming Soon",
+      "href": "https://leroux.qodeinteractive.com/coming-soon/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    },
+    {
+      "text": "Pages",
+      "href": "https://leroux.qodeinteractive.com/404-error-page#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "About Me",
+      "href": "https://leroux.qodeinteractive.com/about-me/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Our Process",
+      "href": "https://leroux.qodeinteractive.com/our-process/"
+    },
+    {
+      "text": "Our Clients",
+      "href": "https://leroux.qodeinteractive.com/our-clients/"
+    },
+    {
+      "text": "Pricing Plans",
+      "href": "https://leroux.qodeinteractive.com/pricing-plans/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    },
+    {
+      "text": "Drop Us A Note",
+      "href": "https://leroux.qodeinteractive.com/drop-us-a-note/"
+    },
+    {
+      "text": "FAQ Page",
+      "href": "https://leroux.qodeinteractive.com/faq-page/"
+    },
+    {
+      "text": "404 Error Page",
+      "href": "https://leroux.qodeinteractive.com/404-error-page"
+    },
+    {
+      "text": "Portfolio",
+      "href": "https://leroux.qodeinteractive.com/404-error-page#"
+    },
+    {
+      "text": "Standard List",
+      "href": "https://leroux.qodeinteractive.com/portfolio/standard-list/"
+    },
+    {
+      "text": "Gallery List",
+      "href": "https://leroux.qodeinteractive.com/portfolio/gallery-list/"
+    },
+    {
+      "text": "List Layouts",
+      "href": "https://leroux.qodeinteractive.com/404-error-page#"
+    },
+    {
+      "text": "Two Columns",
+      "href": "https://leroux.qodeinteractive.com/portfolio/two-columns/"
+    },
+    {
+      "text": "Three Columns",
+      "href": "https://leroux.qodeinteractive.com/portfolio/three-columns/"
+    },
+    {
+      "text": "Three Columns Wide",
+      "href": "https://leroux.qodeinteractive.com/portfolio/three-columns-wide/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main",
+      "width": 87,
+      "height": 23
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark",
+      "width": 87,
+      "height": 23
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-main.png",
+      "alt": "logo light",
+      "width": 87,
+      "height": 23
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main",
+      "width": 174,
+      "height": 46
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-sidearea.png",
+      "alt": "w",
+      "width": 86,
+      "height": 22
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/side-area-img.jpg",
+      "alt": "w",
+      "width": 318,
+      "height": 205
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "StartPro",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Solvent",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Acheron",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "EvolvePro",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Expertise",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "One Goal",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Synastry",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Wade",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Astralla",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Halstein",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Deston",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Thorsten",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "Valiance",
+      "width": 225,
+      "height": 114
+    },
+    {
+      "src": "https://toolbar.qodeinteractive.com/_toolbar/assets/img/rbt-placeholder.jpg",
+      "alt": "MultiOffice",
+      "width": 225,
+      "height": 114
+    }
+  ]
+}

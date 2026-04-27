@@ -1,0 +1,265 @@
+{
+  "id": "landing",
+  "name": "Landing",
+  "url": "https://leroux.qodeinteractive.com/landing/",
+  "title": "Landing – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0"
+  ],
+  "header_text": "Skip to the content Professional business consulting Purchase Scroll Designed for Modern Business Solutions Devised for creating professional business presentations - Business seminars - Companies and entrepreneurs - Main Home 01 Business Home 02 Eight fully developed site examples Diverse and fully adjustable Seminar Home 03 App Showcase 04 Advisory Home 05 Get the full demo content with just 1 click Thanks to 1-click import feature Interactive Banners 06 Business Strategy 07 Fullscreen Slider ",
+  "footer_text": "",
+  "sections": [
+    {
+      "heading": "Eight fully developedsiteexamples",
+      "text": "Professional business consulting Purchase Scroll Designed for Modern Business Solutions Devised for creating professional business presentations - Business seminars - Companies and entrepreneurs - Main Home 01 Business Home 02 Eight fully developed site examples Diverse and fully adjustable Seminar ",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Professional business consulting Purchase Scroll Designed for Modern Business Solutions",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-6383d09",
+        "elementor-section-full_width",
+        "qodef--bg-overlay-fade-in",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Devised for creating professional business presentations - Business seminars - Companies and entrepreneurs -",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-416da33",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Eight fully developedsiteexamples",
+      "text": "Main Home 01 Business Home 02 Eight fully developed site examples Diverse and fully adjustable",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-ab388fe",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Eight fully developedsiteexamples",
+      "text": "Eight fully developed site examples",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-977d746",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Eight fully developedsiteexamples",
+      "text": "Eight fully developed site examples",
+      "classes": [
+        "elementor-element",
+        "elementor-element-893111f",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Eight fully developedsiteexamples",
+      "text": "Eight fully developed site examples",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "Get the full demo contentwithjust1click",
+      "text": "Get the full demo content with just 1 click Thanks to 1-click import feature Interactive Banners 06 Business Strategy 07",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-519aa97",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Get the full demo contentwithjust1click",
+      "text": "Get the full demo content with just 1 click",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-73c40aa",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Get the full demo contentwithjust1click",
+      "text": "Get the full demo content with just 1 click",
+      "classes": [
+        "elementor-element",
+        "elementor-element-8cf565b",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Get the full demo contentwithjust1click",
+      "text": "Get the full demo content with just 1 click",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "Designed with fullflexibilityinmind",
+      "text": "Fullscreen Slider 08 Coming Soon 09 Designed with full flexibility in mind Edit content with total ease",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-2193911",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Designed with fullflexibilityinmind",
+      "text": "Designed with full flexibility in mind",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-af7179a",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Designed with fullflexibilityinmind",
+      "text": "Designed with full flexibility in mind",
+      "classes": [
+        "elementor-element",
+        "elementor-element-953c396",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Designed with fullflexibilityinmind",
+      "text": "Designed with full flexibility in mind",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    }
+  ],
+  "nav_items": [],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/Subtraction-2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-top-icon-img.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-minimal-white.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages1.jpg",
+      "alt": "f"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages2.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages3new.jpg",
+      "alt": "s"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages4new.jpg",
+      "alt": "a"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages5.jpg",
+      "alt": "g"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages6new.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages7.jpg",
+      "alt": "a"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages8new.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/land-homepages9new.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/landing-inner1.jpg",
+      "alt": "g"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/05/landing-inner2.jpg",
+      "alt": "n"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "coming_soon",
+  "name": "Coming Soon",
+  "url": "https://leroux.qodeinteractive.com/coming-soon/",
+  "title": "Coming Soon – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0"
+  ],
+  "header_text": "Skip to the content Back To Home Coming Soon. Get in Touch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore agna aliqua nim ad minim Get in Touch Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor [email protected]",
+  "footer_text": "",
+  "sections": [
+    {
+      "heading": "Coming Soon. Get in Touch.",
+      "text": "Back To Home Coming Soon. Get in Touch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore agna aliqua nim ad minim Get in Touch",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "Coming Soon. Get in Touch.",
+      "text": "Coming Soon. Get in Touch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore agna aliqua nim ad minim Get in Touch",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-c1e3455",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-items-bottom",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Coming Soon. Get in Touch.",
+      "text": "Coming Soon. Get in Touch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore agna aliqua nim ad minim",
+      "classes": [
+        "elementor-element",
+        "elementor-element-152fa7b",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Coming Soon. Get in Touch.",
+      "text": "Coming Soon. Get in Touch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore agna aliqua nim ad minim",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    }
+  ],
+  "nav_items": [],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/logo-coming-soon.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-sidearea.png",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/side-area-img.jpg",
+      "alt": "w"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "seminar_home",
+  "name": "Seminar Home",
+  "url": "https://leroux.qodeinteractive.com/seminar-home/",
+  "title": "Seminar Home – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0"
+  ],
+  "header_text": "Our team consists of professionals Home Main Home Business Home Seminar Home Business Strategy Pages About Us Our Services Contact Us Portfolio Standard List Gallery List Blog Right Sidebar No Sidebar Shop Landing",
+  "footer_text": "",
+  "sections": [
+    {
+      "heading": "",
+      "text": "* 8 Dec – 10 Dec Our Awarded Speakers & Mentors View more Scroll for more One of kind business keynote speakers 8 Dec - 10 Dec View more Branding and Design Lorem ipsum dolor sit amet novum mea View more Plan and Strategy Lorem ipsum dolor sit amet novum mea View more Data and Analysis Lorem ipsum d",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "* 8 Dec – 10 Dec Our Awarded Speakers & Mentors View more Scroll for more One of kind business keynote speakers 8 Dec - 10 Dec View more Branding and Design Lorem ipsum dolor sit amet novum mea View more Plan and Strategy Lorem ipsum dolor sit amet novum mea View more Data and Analysis Lorem ipsum d",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-5fad18a",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "* 8 Dec – 10 Dec Our Awarded Speakers & Mentors View more",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-26268b7f",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-items-bottom",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "One of kind businesskeynote speakers",
+      "text": "One of kind business keynote speakers 8 Dec - 10 Dec View more Branding and Design Lorem ipsum dolor sit amet novum mea View more Plan and Strategy Lorem ipsum dolor sit amet novum mea View more Data and Analysis Lorem ipsum dolor sit amet novum mea View more Business Consulting Lorem ipsum dolor si",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-226fb900",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-items-stretch",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "One of kind businesskeynote speakers",
+      "text": "One of kind business keynote speakers",
+      "classes": [
+        "elementor-element",
+        "elementor-element-4e3f4d80",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "One of kind businesskeynote speakers",
+      "text": "One of kind business keynote speakers",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left",
+        "qodef-title-break--disabled"
+      ]
+    },
+    {
+      "heading": "8 Dec - 10 Dec",
+      "text": "8 Dec - 10 Dec",
+      "classes": [
+        "elementor-element",
+        "elementor-element-547700c4",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "8 Dec - 10 Dec",
+      "text": "8 Dec - 10 Dec",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "Branding andDesign",
+      "text": "Branding and Design Lorem ipsum dolor sit amet novum mea View more Plan and Strategy Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-703d20d",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Branding andDesign",
+      "text": "Branding and Design Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "elementor-element",
+        "elementor-element-24ecce3a",
+        "elementor-widget",
+        "elementor-widget-leroux_core_banner"
+      ]
+    },
+    {
+      "heading": "Branding andDesign",
+      "text": "Branding and Design Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-banner",
+        "qodef-layout--link-button-image-on-hover",
+        "qodef-title-break--disabled"
+      ]
+    },
+    {
+      "heading": "Plan andStrategy",
+      "text": "Plan and Strategy Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "elementor-element",
+        "elementor-element-48c46745",
+        "elementor-widget",
+        "elementor-widget-leroux_core_banner"
+      ]
+    },
+    {
+      "heading": "Plan andStrategy",
+      "text": "Plan and Strategy Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-banner",
+        "qodef-layout--link-button-image-on-hover",
+        "qodef-title-break--disabled"
+      ]
+    },
+    {
+      "heading": "Data andAnalysis",
+      "text": "Data and Analysis Lorem ipsum dolor sit amet novum mea View more Business Consulting Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-278aea69",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Data andAnalysis",
+      "text": "Data and Analysis Lorem ipsum dolor sit amet novum mea View more",
+      "classes": [
+        "elementor-element",
+        "elementor-element-669d6e68",
+        "elementor-widget",
+        "elementor-widget-leroux_core_banner"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Portfolio",
+      "href": "#"
+    },
+    {
+      "text": "Standard List",
+      "href": "https://leroux.qodeinteractive.com/portfolio/standard-list/"
+    },
+    {
+      "text": "Gallery List",
+      "href": "https://leroux.qodeinteractive.com/portfolio/gallery-list/"
+    },
+    {
+      "text": "Blog",
+      "href": "#"
+    },
+    {
+      "text": "Right Sidebar",
+      "href": "https://leroux.qodeinteractive.com/blog/right-sidebar/"
+    },
+    {
+      "text": "No Sidebar",
+      "href": "https://leroux.qodeinteractive.com/blog/no-sidebar/"
+    },
+    {
+      "text": "Shop",
+      "href": "https://leroux.qodeinteractive.com/shop/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/side-logo-2xnew.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-bg-img2.jpg",
+      "alt": "vd"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/03/training-banner2.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-banner.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/03/training-banner3.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/03/training-banner4.jpg",
+      "alt": "a"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-bg-img3.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-signature-img.png",
+      "alt": "h"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-bg-img4.jpg",
+      "alt": "a"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-c1.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-c1-hover.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-c2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-c2-hover.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/training-c3.png",
+      "alt": ""
+    }
+  ]
+}

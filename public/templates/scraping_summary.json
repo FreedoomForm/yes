@@ -1,0 +1,119 @@
+{
+  "total_pages": 28,
+  "successful": 27,
+  "failed": 1,
+  "pages": [
+    {
+      "page": "Main Home",
+      "success": true
+    },
+    {
+      "page": "Business Home",
+      "success": true
+    },
+    {
+      "page": "Seminar Home",
+      "success": true
+    },
+    {
+      "page": "App Showcase",
+      "success": true
+    },
+    {
+      "page": "Advisory Home",
+      "success": true
+    },
+    {
+      "page": "Interactive Banners",
+      "success": true
+    },
+    {
+      "page": "Business Strategy",
+      "success": true
+    },
+    {
+      "page": "Fullscreen Slider",
+      "success": true
+    },
+    {
+      "page": "Coming Soon",
+      "success": true
+    },
+    {
+      "page": "Landing",
+      "success": true
+    },
+    {
+      "page": "About Us",
+      "success": true
+    },
+    {
+      "page": "About Me",
+      "success": true
+    },
+    {
+      "page": "Our Services",
+      "success": true
+    },
+    {
+      "page": "Our Process",
+      "success": true
+    },
+    {
+      "page": "Our Clients",
+      "success": true
+    },
+    {
+      "page": "Pricing Plans",
+      "success": true
+    },
+    {
+      "page": "Contact Us",
+      "success": true
+    },
+    {
+      "page": "Get In Touch",
+      "success": true
+    },
+    {
+      "page": "Drop Us A Note",
+      "success": true
+    },
+    {
+      "page": "FAQ Page",
+      "success": true
+    },
+    {
+      "page": "Error 404",
+      "success": false
+    },
+    {
+      "page": "Portfolio Standard",
+      "success": true
+    },
+    {
+      "page": "Portfolio Gallery",
+      "success": true
+    },
+    {
+      "page": "Blog Right Sidebar",
+      "success": true
+    },
+    {
+      "page": "Blog Left Sidebar",
+      "success": true
+    },
+    {
+      "page": "Blog No Sidebar",
+      "success": true
+    },
+    {
+      "page": "Shop",
+      "success": true
+    },
+    {
+      "page": "Product Single",
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "blog_left_sidebar",
+  "name": "Blog Left Sidebar",
+  "url": "https://leroux.qodeinteractive.com/blog/left-sidebar/",
+  "title": "Left Sidebar – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/section-title.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4"
+  ],
+  "header_text": "Home Main Home Business Home Seminar Home App Showcase Advisory Home Interactive Banners Business Strategy Fullscreen Slider Coming Soon Landing Pages About Us About Me Our Services Our Process Our Clients Pricing Plans Contact Us Get In Touch Drop Us A Note FAQ Page 404 Error Page Portfolio Standard List Gallery List List Layouts Two Columns Three Columns Three Columns Wide Four Columns Four Columns Wide Five Columns Wide Six Columns Wide Single Types Small Images Big images Small Gallery Big G",
+  "footer_text": "Make your idea into reality with Leroux Professional & modern, a theme designed to help your business stand out from the rest. Send Contact us: [email protected] +1 234 5678 9999 Our address: Old Westbury 256, New York 11201, United States Our social: Terms and conditions Privacy policy © 2023 Qode Interactive",
+  "sections": [
+    {
+      "heading": "Providing better service for customers",
+      "text": "06 Feb Economy Research Providing better service for customers Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseqat. Duis a",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "Providing better service for customers",
+      "text": "06 Feb Economy Research Providing better service for customers Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseqat. Duis a",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-b84304c",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Providing better service for customers",
+      "text": "06 Feb Economy Research Providing better service for customers Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseqat. Duis a",
+      "classes": [
+        "elementor-element",
+        "elementor-element-3954035",
+        "elementor-widget",
+        "elementor-widget-leroux_core_blog_list"
+      ]
+    },
+    {
+      "heading": "Providing better service for customers",
+      "text": "06 Feb Economy Research Providing better service for customers Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseqat. Duis a",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-blog",
+        "qodef--list",
+        "qodef-item-layout--standard",
+        "qodef-grid",
+        "qodef-layout--columns",
+        "qodef-vertical-gutter--gigantic",
+        "qodef-col-num--1",
+        "qodef-item-layout--standard",
+        "qodef-pagination--on",
+        "qodef-pagination-type--standard",
+        "qodef-responsive--predefined"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Search Categories Business Economy Investment Research Latest Posts 06 Feb Providing better service for customers 06 Feb Latest news from the economy world 06 Feb Business & plan scheming Instagram Tags Analysis Corporate Data Marketing Profit Statistics Stocks Trading",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-sidebar-section",
+        "qodef-col--sidebar"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "06 Feb Providing better service for customers 06 Feb Latest news from the economy world 06 Feb Business & plan scheming",
+      "classes": [
+        "widget",
+        "widget_leroux_core_blog_list"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "06 Feb Providing better service for customers 06 Feb Latest news from the economy world 06 Feb Business & plan scheming",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-blog",
+        "qodef-item-layout--side-by-side",
+        "qodef-grid",
+        "qodef-layout--columns",
+        "qodef-vertical-gutter--small",
+        "qodef-col-num--1",
+        "qodef-item-layout--side-by-side",
+        "qodef-pagination--off",
+        "qodef-responsive--predefined",
+        "qodef-swiper--show-pagination"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Advisory Home",
+      "href": "https://leroux.qodeinteractive.com/advisory-home/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Fullscreen Slider",
+      "href": "https://leroux.qodeinteractive.com/fullscreen-slider/"
+    },
+    {
+      "text": "Coming Soon",
+      "href": "https://leroux.qodeinteractive.com/coming-soon/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "About Me",
+      "href": "https://leroux.qodeinteractive.com/about-me/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Our Process",
+      "href": "https://leroux.qodeinteractive.com/our-process/"
+    },
+    {
+      "text": "Our Clients",
+      "href": "https://leroux.qodeinteractive.com/our-clients/"
+    },
+    {
+      "text": "Pricing Plans",
+      "href": "https://leroux.qodeinteractive.com/pricing-plans/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-main.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-bg-img.jpg",
+      "alt": "s"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-4.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-5.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-6.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-7.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-4-123x107.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-5-123x107.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-6-123x107.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-sidebar-img.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-footer.png",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-sidearea.png",
+      "alt": "w"
+    }
+  ]
+}

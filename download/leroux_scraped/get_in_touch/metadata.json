@@ -1,0 +1,232 @@
+{
+  "id": "get_in_touch",
+  "name": "Get In Touch",
+  "url": "https://leroux.qodeinteractive.com/get-in-touch/",
+  "title": "Get In Touch – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/section-title.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4"
+  ],
+  "header_text": "",
+  "footer_text": "Make your idea into reality with Leroux Professional & modern, a theme designed to help your business stand out from the rest. Send Contact us: [email protected] +1 234 5678 9999 Our address: Old Westbury 256, New York 11201, United States Our social: Terms and conditions Privacy policy © 2023 Qode Interactive",
+  "sections": [
+    {
+      "heading": "Contact us anytime",
+      "text": "Contact us anytime Luctus nec ullamcorper mattis, pulvinar dapibus leo. Homero eligendi id vim. Send Our Offices Zurich Old Westbury 256, New York, USA + 123 4567 89 000 [email protected] Working Hours: 07am to 5pm Lisbon Old Westbury 256, New York, USA + 123 4567 89 000 [email protected] Working Ho",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "Contact us anytime",
+      "text": "Contact us anytime Luctus nec ullamcorper mattis, pulvinar dapibus leo. Homero eligendi id vim. Send",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-0d3bc5a",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Contact us anytime",
+      "text": "Contact us anytime",
+      "classes": [
+        "elementor-element",
+        "elementor-element-af6f0a1",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Contact us anytime",
+      "text": "Contact us anytime",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "Our Offices",
+      "text": "Our Offices",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-125fd38",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Our Offices",
+      "text": "Our Offices",
+      "classes": [
+        "elementor-element",
+        "elementor-element-9f67d43",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Our Offices",
+      "text": "Our Offices",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Zurich Old Westbury 256, New York, USA + 123 4567 89 000 [email protected] Working Hours: 07am to 5pm Lisbon Old Westbury 256, New York, USA + 123 4567 89 000 [email protected] Working Hours: 07am to 5pm Barcelona Old Westbury 256, New York, USA + 123 4567 89 000 [email protected] Working Hours: 07a",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-1d4eb21",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Advisory Home",
+      "href": "https://leroux.qodeinteractive.com/advisory-home/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Fullscreen Slider",
+      "href": "https://leroux.qodeinteractive.com/fullscreen-slider/"
+    },
+    {
+      "text": "Coming Soon",
+      "href": "https://leroux.qodeinteractive.com/coming-soon/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "About Me",
+      "href": "https://leroux.qodeinteractive.com/about-me/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Our Process",
+      "href": "https://leroux.qodeinteractive.com/our-process/"
+    },
+    {
+      "text": "Our Clients",
+      "href": "https://leroux.qodeinteractive.com/our-clients/"
+    },
+    {
+      "text": "Pricing Plans",
+      "href": "https://leroux.qodeinteractive.com/pricing-plans/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-main.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-footer.png",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-sidearea.png",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/side-area-img.jpg",
+      "alt": "w"
+    }
+  ]
+}

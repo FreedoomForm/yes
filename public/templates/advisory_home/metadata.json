@@ -1,0 +1,326 @@
+{
+  "id": "advisory_home",
+  "name": "Advisory Home",
+  "url": "https://leroux.qodeinteractive.com/advisory-home/",
+  "title": "Advisory Home – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0"
+  ],
+  "header_text": "Old Westbury 256, New York 11201, United States Mon - Sat 8.00- 16.00 Sunday CLOSED + 1234 -567- 899 99 Call Us Home Main Home Business Home Seminar Home App Showcase Advisory Home Interactive Banners Business Strategy Fullscreen Slider Coming Soon Landing Pages About Us About Me Our Services Our Process Our Clients Pricing Plans Contact Us Get In Touch Drop Us A Note FAQ Page 404 Error Page Portfolio Standard List Gallery List List Layouts Two Columns Three Columns Three Columns Wide Four Colum",
+  "footer_text": "",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Old Westbury 256, New York 11201, United States Mon - Sat 8.00- 16.00 Sunday CLOSED + 1234 -567- 899 99 Call Us",
+      "classes": [
+        "qodef-header-section",
+        "qodef--top"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Home Main Home Business Home Seminar Home App Showcase Advisory Home Interactive Banners Business Strategy Fullscreen Slider Coming Soon Landing Pages About Us About Me Our Services Our Process Our Clients Pricing Plans Contact Us Get In Touch Drop Us A Note FAQ Page 404 Error Page Portfolio Standar",
+      "classes": [
+        "qodef-header-section",
+        "qodef--bottom"
+      ]
+    },
+    {
+      "heading": "Trust the process & grow your business",
+      "text": "Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Clients Services",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "Trust the process & grow your business",
+      "text": "Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Clients Services",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-a3b66f9",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Adaptability Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit New Strategies Lorem ipsum dolor sit amet, cons ectetur adipiscing elit Clients Services",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-661f5ee",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Trust the process & grow your business",
+      "text": "Trust the process & grow your business Lorem ipsum dolor sit amet, consectetur adipiscing elit ut luctus. View More Technology Development Research",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-c7db33e",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Trust the process & grow your business",
+      "text": "Trust the process & grow your business",
+      "classes": [
+        "elementor-element",
+        "elementor-element-2c624e3",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Trust the process & grow your business",
+      "text": "Trust the process & grow your business",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Business events Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmo tempor incididunt ut labore et dolore ad magna aliqua. Ut enim ad minim veniam, quis nostrud. Development & design Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labor",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-b297724",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 68 Basic Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More $ 168 Standard Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More $ 268 Premium Plan Affert volumus legend Mel det",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-3f8bb9c",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 68 Basic Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More",
+      "classes": [
+        "elementor-element",
+        "elementor-element-b8ecd50",
+        "elementor-widget",
+        "elementor-widget-leroux_core_pricing_table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 68 Basic Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-pricing-table",
+        "qodef-layout--standard",
+        "qodef-status--regular"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 168 Standard Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More",
+      "classes": [
+        "elementor-element",
+        "elementor-element-57fb25a",
+        "elementor-widget",
+        "elementor-widget-leroux_core_pricing_table"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 168 Standard Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-pricing-table",
+        "qodef-layout--standard",
+        "qodef-status--featured"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "$ 268 Premium Plan Affert volumus legend Mel detracto atomorum ne Eripuit minimum probatus ei Vix ex natum iracundia View More",
+      "classes": [
+        "elementor-element",
+        "elementor-element-66df5f8",
+        "elementor-widget",
+        "elementor-widget-leroux_core_pricing_table"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Advisory Home",
+      "href": "https://leroux.qodeinteractive.com/advisory-home/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Fullscreen Slider",
+      "href": "https://leroux.qodeinteractive.com/fullscreen-slider/"
+    },
+    {
+      "text": "Coming Soon",
+      "href": "https://leroux.qodeinteractive.com/coming-soon/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "About Me",
+      "href": "https://leroux.qodeinteractive.com/about-me/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Our Process",
+      "href": "https://leroux.qodeinteractive.com/our-process/"
+    },
+    {
+      "text": "Our Clients",
+      "href": "https://leroux.qodeinteractive.com/our-clients/"
+    },
+    {
+      "text": "Pricing Plans",
+      "href": "https://leroux.qodeinteractive.com/pricing-plans/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-main.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/home-4-img-1.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/home-4-img-2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-1.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-2.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/blog-list-img-3.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-footer.png",
+      "alt": ""
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-sidearea.png",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/side-area-img.jpg",
+      "alt": "w"
+    }
+  ]
+}

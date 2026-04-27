@@ -1,0 +1,327 @@
+{
+  "id": "app_showcase",
+  "name": "App Showcase",
+  "url": "https://leroux.qodeinteractive.com/app-showcase/",
+  "title": "App Showcase – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4",
+    "https://fonts.googleapis.com/css?family=DM+Sans%3A300%2C400%2C400i%2C500%2C600%2C700%7CHeebo%3A300%2C400%2C400i%2C500%2C600%2C700&subset=latin-ext&display=swap&ver=1.0.0"
+  ],
+  "header_text": "Get in touch",
+  "footer_text": "",
+  "sections": [
+    {
+      "heading": "Change Your Company Image With Our Help",
+      "text": "New Features That Enhance Businesses Sed ut Perspiciatis unde Omnis Iste Sed ut Pers piciatis Omnis Perspiciatis unde Omnis Iste Sed ut Change Your Company Image With Our Help Companies analyzed Satisfied clients Projects released Strategies planned Strategy Work Lorem ipsum dolor sit amet, conse ct",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "New Features That Enhance Businesses Sed ut Perspiciatis unde Omnis Iste Sed ut Pers piciatis Omnis Perspiciatis unde Omnis Iste Sed ut",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-f36923f",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Change Your Company Image With Our Help",
+      "text": "Change Your Company Image With Our Help",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-f053c55",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Change Your Company Image With Our Help",
+      "text": "Change Your Company Image With Our Help",
+      "classes": [
+        "elementor-element",
+        "elementor-element-77e7e28",
+        "elementor-widget__width-initial",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Change Your Company Image With Our Help",
+      "text": "Change Your Company Image With Our Help",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--center"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Companies analyzed Satisfied clients Projects released Strategies planned",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-712ac70",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Strategy Work Lorem ipsum dolor sit amet, conse ctetur adipiscing elit Full Optimization Lorem ipsum dolor sit amet, conse ctetur adipiscing elit Pricing Function Lorem ipsum dolor sit amet, conse ctetur adipiscing elit Management Team Lorem ipsum dolor sit amet, conse ctetur adipiscing elit",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-1424cbd",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Build a Better Future for Your Company",
+      "text": "Build a Better Future for Your Company View more Operations & Efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-6ba35b8",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Build a Better Future for Your Company",
+      "text": "Build a Better Future for Your Company View more Operations & Efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "classes": [
+        "elementor-section",
+        "elementor-inner-section",
+        "elementor-element",
+        "elementor-element-882c0d2",
+        "elementor-section-full_width",
+        "elementor-section-height-min-height",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Build a Better Future for Your Company",
+      "text": "Build a Better Future for Your Company",
+      "classes": [
+        "elementor-element",
+        "elementor-element-ff7cb91",
+        "elementor-widget__width-initial",
+        "elementor-widget-laptop__width-initial",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "Build a Better Future for Your Company",
+      "text": "Build a Better Future for Your Company",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--left"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Operations & Efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "classes": [
+        "elementor-element",
+        "elementor-element-c520666",
+        "elementor-widget__width-initial",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Operations & Efficiency Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-section-title",
+        "qodef-alignment--right"
+      ]
+    },
+    {
+      "heading": "Special Offer Worth Investing in, Choose Your Pack Today!",
+      "text": "Special Offer Worth Investing in, Choose Your Pack Today!",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-0a95f33",
+        "elementor-section-full_width",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "Special Offer Worth Investing in, Choose Your Pack Today!",
+      "text": "Special Offer Worth Investing in, Choose Your Pack Today!",
+      "classes": [
+        "elementor-element",
+        "elementor-element-98bf6ea",
+        "elementor-widget__width-initial",
+        "elementor-widget",
+        "elementor-widget-leroux_core_section_title"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    },
+    {
+      "text": "Portfolio",
+      "href": "#"
+    },
+    {
+      "text": "Standard List",
+      "href": "https://leroux.qodeinteractive.com/portfolio/standard-list/"
+    },
+    {
+      "text": "Small Gallery",
+      "href": "https://leroux.qodeinteractive.com/portfolio-item/big-dream/"
+    },
+    {
+      "text": "Big Masonry",
+      "href": "https://leroux.qodeinteractive.com/portfolio-item/logo-design/"
+    },
+    {
+      "text": "Blog",
+      "href": "#"
+    },
+    {
+      "text": "Right Sidebar",
+      "href": "https://leroux.qodeinteractive.com/blog/right-sidebar/"
+    },
+    {
+      "text": "No Sidebar",
+      "href": "https://leroux.qodeinteractive.com/blog/no-sidebar/"
+    },
+    {
+      "text": "Standard Post",
+      "href": "https://leroux.qodeinteractive.com/latest-news-from-the-economy-world/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-minimal.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-minimal.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-minimal-white.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/app-img-slide2.jpg",
+      "alt": "c"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/app-img-slide1.jpg",
+      "alt": "s"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/app-img-slide3.jpg",
+      "alt": "b"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/app-hotspots-img-new.png",
+      "alt": "a"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/app-img1.png",
+      "alt": "a"
+    }
+  ]
+}

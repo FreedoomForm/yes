@@ -1,0 +1,235 @@
+{
+  "id": "portfolio_standard",
+  "name": "Portfolio Standard",
+  "url": "https://leroux.qodeinteractive.com/portfolio/standard-list/",
+  "title": "Standard List – Leroux",
+  "css_links": [
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css?ver=4.1.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/ionicons/assets/css/ionicons.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/section-title.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/single-image.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.5",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/grid.css?ver=1.3.1",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/assets/dist/main.css?ver=1.3.1",
+    "https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.9.4",
+    "//leroux.qodeinteractive.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.18",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.8",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css?ver=5.4.5",
+    "https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css?ver=6.9.4",
+    "https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css?ver=6.9.4"
+  ],
+  "header_text": "Home Main Home Business Home Seminar Home App Showcase Advisory Home Interactive Banners Business Strategy Fullscreen Slider Coming Soon Landing Pages About Us About Me Our Services Our Process Our Clients Pricing Plans Contact Us Get In Touch Drop Us A Note FAQ Page 404 Error Page Portfolio Standard List Gallery List List Layouts Two Columns Three Columns Three Columns Wide Four Columns Four Columns Wide Five Columns Wide Six Columns Wide Single Types Small Images Big images Small Gallery Big G",
+  "footer_text": "Make your idea into reality with Leroux Professional & modern, a theme designed to help your business stand out from the rest. Send Contact us: [email protected] +1 234 5678 9999 Our address: Old Westbury 256, New York 11201, United States Our social: Terms and conditions Privacy policy © 2023 Qode Interactive",
+  "sections": [
+    {
+      "heading": "",
+      "text": "Digital Reviews Business Original Artwork Innovation Minimal Design Success Big Dream Innovation Personal Art Success New Projects Business Creative Design Business Product Design Innovation Logo Design Success 01 02",
+      "classes": [
+        "qodef-grid-item",
+        "qodef-page-content-section",
+        "qodef-col--content"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Digital Reviews Business Original Artwork Innovation Minimal Design Success Big Dream Innovation Personal Art Success New Projects Business Creative Design Business Product Design Innovation Logo Design Success 01 02",
+      "classes": [
+        "elementor-section",
+        "elementor-top-section",
+        "elementor-element",
+        "elementor-element-be06fc4",
+        "qodef-elementor-content-grid",
+        "elementor-section-boxed",
+        "elementor-section-height-default",
+        "elementor-section-height-default"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Digital Reviews Business Original Artwork Innovation Minimal Design Success Big Dream Innovation Personal Art Success New Projects Business Creative Design Business Product Design Innovation Logo Design Success 01 02",
+      "classes": [
+        "elementor-element",
+        "elementor-element-3afae5c",
+        "elementor-widget",
+        "elementor-widget-leroux_core_portfolio_list"
+      ]
+    },
+    {
+      "heading": "",
+      "text": "Digital Reviews Business Original Artwork Innovation Minimal Design Success Big Dream Innovation Personal Art Success New Projects Business Creative Design Business Product Design Innovation Logo Design Success 01 02",
+      "classes": [
+        "qodef-shortcode",
+        "qodef-m",
+        "qodef-portfolio-list",
+        "qodef-item-layout--info-below",
+        "qodef-grid",
+        "qodef-layout--columns",
+        "qodef-gutter--enormous",
+        "qodef-vertical-gutter--extra-large",
+        "qodef-col-num--3",
+        "qodef-item-layout--info-below",
+        "qodef-pagination--on",
+        "qodef-pagination-type--standard",
+        "qodef-responsive--custom",
+        "qodef-col-num--1440--3",
+        "qodef-col-num--1366--3",
+        "qodef-col-num--1024--2",
+        "qodef-col-num--768--2",
+        "qodef-col-num--680--1",
+        "qodef-col-num--480--1",
+        "qodef-hover-animation--overlay"
+      ]
+    }
+  ],
+  "nav_items": [
+    {
+      "text": "Home",
+      "href": "#"
+    },
+    {
+      "text": "Main Home",
+      "href": "https://leroux.qodeinteractive.com/"
+    },
+    {
+      "text": "Business Home",
+      "href": "https://leroux.qodeinteractive.com/business-home/"
+    },
+    {
+      "text": "Seminar Home",
+      "href": "https://leroux.qodeinteractive.com/seminar-home/"
+    },
+    {
+      "text": "App Showcase",
+      "href": "https://leroux.qodeinteractive.com/app-showcase/"
+    },
+    {
+      "text": "Advisory Home",
+      "href": "https://leroux.qodeinteractive.com/advisory-home/"
+    },
+    {
+      "text": "Interactive Banners",
+      "href": "https://leroux.qodeinteractive.com/interactive-banners/"
+    },
+    {
+      "text": "Business Strategy",
+      "href": "https://leroux.qodeinteractive.com/business-strategy/"
+    },
+    {
+      "text": "Fullscreen Slider",
+      "href": "https://leroux.qodeinteractive.com/fullscreen-slider/"
+    },
+    {
+      "text": "Coming Soon",
+      "href": "https://leroux.qodeinteractive.com/coming-soon/"
+    },
+    {
+      "text": "Landing",
+      "href": "https://leroux.qodeinteractive.com/landing/"
+    },
+    {
+      "text": "Pages",
+      "href": "#"
+    },
+    {
+      "text": "About Us",
+      "href": "https://leroux.qodeinteractive.com/about-us/"
+    },
+    {
+      "text": "About Me",
+      "href": "https://leroux.qodeinteractive.com/about-me/"
+    },
+    {
+      "text": "Our Services",
+      "href": "https://leroux.qodeinteractive.com/our-services/"
+    },
+    {
+      "text": "Our Process",
+      "href": "https://leroux.qodeinteractive.com/our-process/"
+    },
+    {
+      "text": "Our Clients",
+      "href": "https://leroux.qodeinteractive.com/our-clients/"
+    },
+    {
+      "text": "Pricing Plans",
+      "href": "https://leroux.qodeinteractive.com/pricing-plans/"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://leroux.qodeinteractive.com/contact-us/"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "https://leroux.qodeinteractive.com/get-in-touch/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo dark"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-main.png",
+      "alt": "logo light"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png",
+      "alt": "logo main"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-bg-img.jpg",
+      "alt": "s"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img1.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img2.jpg",
+      "alt": "v"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img3.jpg",
+      "alt": "b"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img4.jpg",
+      "alt": "d"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img5.jpg",
+      "alt": "b"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img6.jpg",
+      "alt": "w"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img7.jpg",
+      "alt": "f"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img8.jpg",
+      "alt": "b"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/02/port-list-img9.jpg",
+      "alt": "u"
+    },
+    {
+      "src": "https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-footer.png",
+      "alt": "w"
+    }
+  ]
+}

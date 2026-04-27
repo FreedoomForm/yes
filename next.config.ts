@@ -7,6 +7,18 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'leroux.qodeinteractive.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'preview.themeforest.net',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
