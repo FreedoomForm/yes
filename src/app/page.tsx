@@ -87,41 +87,35 @@ export default function Home() {
 
   // Clean and process HTML for display
   const processHtml = (html: string) => {
-    // Remove admin bars and unnecessary elements
+    // Remove scripts but keep structure
     return html
       .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
   }
-
-  // External CSS links from the template
-  const externalStyles = `
-    https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css
-    https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css
-    https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css
-    https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css
-  `
 
   return (
     <div className="min-h-screen bg-gray-100 flex">
       {/* Sidebar */}
-      <aside className={`${sidebarOpen ? 'w-72' : 'w-16'} bg-gray-900 text-white transition-all duration-300 flex flex-col fixed h-full z-50`}>
-        <div className="p-4 border-b border-gray-700 flex items-center justify-between">
+      <aside className={`${sidebarOpen ? 'w-72' : 'w-16'} bg-slate-900 text-white transition-all duration-300 flex flex-col fixed h-full z-50 shadow-xl`}>
+        <div className="p-4 border-b border-slate-700 flex items-center justify-between">
           {sidebarOpen && (
-            <h1 className="text-lg font-bold">Leroux Templates</h1>
+            <div>
+              <h1 className="text-lg font-bold text-white">Leroux</h1>
+              <p className="text-xs text-slate-400">Business Templates</p>
+            </div>
           )}
           <button 
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="p-2 hover:bg-gray-700 rounded"
+            className="p-2 hover:bg-slate-700 rounded-lg transition-colors"
           >
             {sidebarOpen ? '◀' : '▶'}
           </button>
         </div>
         
-        <nav className="flex-1 overflow-y-auto p-2">
+        <nav className="flex-1 overflow-y-auto py-2">
           {Object.entries(TEMPLATE_CATEGORIES).map(([category, templateIds]) => (
             <div key={category} className="mb-4">
               {sidebarOpen && (
-                <h3 className="text-xs uppercase text-gray-400 px-3 py-2">{category}</h3>
+                <h3 className="text-xs uppercase text-slate-500 px-4 py-2 font-semibold tracking-wider">{category}</h3>
               )}
               {templateIds.map(id => {
                 const template = TEMPLATES.find(t => t.id === id)
@@ -130,14 +124,21 @@ export default function Home() {
                   <button
                     key={id}
                     onClick={() => setCurrentTemplate(id)}
-                    className={`w-full text-left px-3 py-2 rounded text-sm transition-colors ${
+                    className={`w-full text-left px-4 py-2.5 text-sm transition-all duration-200 ${
                       currentTemplate === id 
-                        ? 'bg-blue-600 text-white' 
-                        : 'hover:bg-gray-700 text-gray-300'
+                        ? 'bg-blue-600 text-white shadow-lg' 
+                        : 'hover:bg-slate-800 text-slate-300 hover:text-white'
                     }`}
                     title={!sidebarOpen ? template.name : undefined}
                   >
-                    {sidebarOpen ? template.name : template.name.charAt(0)}
+                    {sidebarOpen ? (
+                      <span className="flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-current opacity-50"></span>
+                        {template.name}
+                      </span>
+                    ) : (
+                      <span className="flex justify-center font-medium">{template.name.charAt(0)}</span>
+                    )}
                   </button>
                 )
               })}
@@ -147,58 +148,97 @@ export default function Home() {
       </aside>
 
       {/* Main Content */}
-      <main className={`flex-1 ${sidebarOpen ? 'ml-72' : 'ml-16'} transition-all duration-300`}>
+      <main className={`${sidebarOpen ? 'ml-72' : 'ml-16'} transition-all duration-300 flex-1`}>
         {/* Top Bar */}
-        <div className="bg-white border-b border-gray-200 p-4 sticky top-0 z-40">
+        <div className="bg-white border-b border-gray-200 px-6 py-4 sticky top-0 z-40 shadow-sm">
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-semibold text-gray-900">
                 {TEMPLATES.find(t => t.id === currentTemplate)?.name || 'Template'}
               </h2>
               <p className="text-sm text-gray-500">
-                Direct HTML/CSS implementation from leroux.qodeinteractive.com
+                Template {TEMPLATES.findIndex(t => t.id === currentTemplate) + 1} of {TEMPLATES.length} • Direct from leroux.qodeinteractive.com
               </p>
             </div>
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-gray-500">
-                Template {TEMPLATES.findIndex(t => t.id === currentTemplate) + 1} of {TEMPLATES.length}
-              </span>
+            <div className="flex items-center gap-3">
               <a 
                 href={`https://leroux.qodeinteractive.com/${currentTemplate === 'main_home' ? '' : currentTemplate.replace(/_/g, '-') + '/'}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
+                className="px-4 py-2 bg-slate-900 text-white rounded-lg hover:bg-slate-800 text-sm font-medium transition-colors"
               >
-                View Original
+                View Original ↗
               </a>
             </div>
           </div>
         </div>
 
         {/* Template Content */}
-        <div className="bg-white">
+        <div className="bg-white min-h-[calc(100vh-73px)]">
           {loading ? (
             <div className="flex items-center justify-center h-96">
-              <div className="text-gray-500">Loading template...</div>
+              <div className="text-center">
+                <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+                <div className="text-gray-500">Loading template...</div>
+              </div>
             </div>
           ) : templateData ? (
             <div className="relative">
-              {/* External stylesheets */}
+              {/* Google Fonts */}
+              <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+              
+              {/* External stylesheets from Leroux */}
               <link rel="stylesheet" href="https://leroux.qodeinteractive.com/wp-content/themes/leroux/assets/css/main.min.css" />
               <link rel="stylesheet" href="https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/assets/css/leroux-core.min.css" />
               <link rel="stylesheet" href="https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css" />
               <link rel="stylesheet" href="https://leroux.qodeinteractive.com/wp-content/plugins/leroux-core/inc/icons/font-awesome/assets/css/all.min.css" />
+              <link rel="stylesheet" href="https://leroux.qodeinteractive.com/wp-content/plugins/qi-blocks/inc/slider/assets/plugins/5.4.5/swiper.min.css" />
               
               {/* Inline CSS from scraped template */}
               <style dangerouslySetInnerHTML={{ __html: templateData.css }} />
               
-              {/* Custom base styles */}
+              {/* Base styles for proper rendering */}
               <style dangerouslySetInnerHTML={{ __html: `
+                @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+                
                 * { box-sizing: border-box; }
-                body { margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
-                img { max-width: 100%; height: auto; }
-                a { color: inherit; }
-                .qodef-content { min-height: 100vh; }
+                
+                html, body {
+                  margin: 0;
+                  padding: 0;
+                  font-family: 'DM Sans', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+                
+                img { 
+                  max-width: 100%; 
+                  height: auto; 
+                  display: block;
+                }
+                
+                a { 
+                  color: inherit; 
+                  text-decoration: none;
+                }
+                
+                .qodef-content { 
+                  min-height: 100vh; 
+                }
+                
+                /* Fix common issues */
+                .elementor-section {
+                  width: 100% !important;
+                }
+                
+                .qodef-grid-item {
+                  float: left;
+                }
+                
+                /* Ensure images load */
+                img[src*="leroux.qodeinteractive.com"] {
+                  background: #f0f0f0;
+                }
               `}} />
               
               {/* Render scraped HTML */}
