@@ -1,0 +1,22 @@
+{
+  "css": {
+    "total": 30,
+    "success": 30,
+    "failed": 0
+  },
+  "js": {
+    "total": 20,
+    "success": 20,
+    "failed": 0
+  },
+  "images": {
+    "total": 100,
+    "success": 100,
+    "failed": 0
+  },
+  "fonts": {
+    "total": 0,
+    "success": 0,
+    "failed": 0
+  }
+}
