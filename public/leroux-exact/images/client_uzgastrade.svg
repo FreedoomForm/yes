@@ -1,0 +1,1010 @@
+    <!DOCTYPE html>
+    <html prefix="og: http://ogp.me/ns#" class="boxed uz" lang="en">
+    <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="author" content="PROEND TEAM" />
+  <link rel="shortcut icon" href="https://www.uzgastrade.uz/assets/public/images/Favicon.png" />
+  <title>404  </title>
+                <meta property="og:title" content="Uzgastrade Aksiyadorlik Jamiyati" />
+          <meta property="og:description" content="Ozbekiston Respublikasidagi tabiiy gaz sotish va sotib olish boyicha yagona operatori" />
+        <meta property="og:url" content="https://www.uzgastrade.uz/" />
+    <meta property="og:type" content="website" />
+    <meta property='og:image' content='https://www.uzgastrade.uz/assets/public/images/opengraph.png' />    <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+  <meta name="robots" content="index, follow" />
+  <script>
+    site_url = 'https://www.uzgastrade.uz/uz/';
+    base_url = 'https://www.uzgastrade.uz/';
+    resource = 'https://www.uzgastrade.uz/assets/public/';
+    mobile_menu = 'Menyu';
+    lang = 'uz';
+    sel = '404';
+  </script>
+
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/starter.css">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/main.css?v=1777290855">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/owl.css">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/aos.css">
+    <link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/flatpickr.css" />
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/fancybox/fancybox.css">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/bvi/css/bvi.css">
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/magnific-popup/magnific-popup.css?v=0.3" />
+    <script src="https://www.uzgastrade.uz/assets/public/js/jquery.min.js"></script>
+    <script src="https://www.uzgastrade.uz/assets/public/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="https://www.uzgastrade.uz/assets/public/js/imask.js"></script>
+<link rel="stylesheet" href="https://www.uzgastrade.uz/assets/public/css/other.css?v=1777290855" />
+    <script src="https://www.uzgastrade.uz/assets/public/js/flatpickr.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("form_contact").submit();
+        }
+        function onSubmitVirtual(token) {
+            document.getElementById("form_virtual").submit();
+        }
+    </script>
+    <style>
+
+        .grecaptcha-badge {
+            opacity: 0.1;
+        }
+    </style>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103767998', 'ym');
+
+    ym(103767998, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/103767998" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<style>
+		.__ymDebugger.__ym_wv_ign{
+			display:none;
+		}
+	</style>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+</head>
+
+    <body class="pages-body">
+        <header class="header ">
+	        <div class="test-mode ">
+            <div class="container">
+                <span class="header-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-=""
+                    data-bs-title="Sayt test rejimida ishlamoqda">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="icon line">
+                        <path style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.95"
+                            d="M11.95 16.5h.1" />
+                        <path d="m12.89 3.56 8 16A1 1 0 0 1 20 21H4a1 1 0 0 1-.9-1.45l8-16a1 1 0 0 1 1.79.01M12 12v-2"
+                            style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5" />
+                    </svg>
+                    <span class="header-warning__text">
+                        Sayt test rejimida ishlamoqda </span>
+                </span>
+
+                <a href="https://old.uzgastrade.uz/" target="_blank">Saytning eski talqini</a>
+            </div>
+        </div>
+    <navbar class="navbar-top">
+        <div class="container">
+            <div class="navbar-top-left">
+                <button class="accesibility bvi-open">
+                    <img src="https://www.uzgastrade.uz/assets/public/images/human-sign.svg" alt="">
+                </button>
+                <a href="tel:+998555060506216">
+                    <span class="i-phone"></span>
+                    <p class="body4">+998 55 506 05 06 (216)</p>
+                </a>
+                <a href="mailto:info@uzgastrade.uz">
+                    <span class="i-mail"></span>
+                    <p class="body4">info@uzgastrade.uz</p>
+                </a>
+            </div>
+
+            <a href="https://www.uzgastrade.uz/uz/" class="navbar-top-middle">
+                <img class="middle-logo" alt="">
+            </a>
+
+            <script>
+                const header = document.querySelector('header.header');
+                const logoImg = document.querySelector('.navbar-top-middle img');
+
+                if (header.classList.contains('index')) {
+                    logoImg.src = 'https://www.uzgastrade.uz/assets/public/images/uzgastrade-logo-white.svg';
+                } else {
+                    logoImg.src = 'https://www.uzgastrade.uz/assets/public/images/uzgastrade-logo-blue.svg';
+                }
+            </script>
+
+
+            <div class="navbar-top-right">
+                <a href="https://www.uzgastrade.uz/uz/disclosure">
+                    <span class="i-info"></span>
+                    <p class="body4">Ochiq ma’lumotlar</p>
+                </a>
+                <div class="lang-dropdown">
+                    <div class="lang-selected">
+                        <img src="https://www.uzgastrade.uz/assets/public/images/lang/uz.png" alt="O‘zbekcha">
+                        <p>O‘zbekcha</p>
+                        <span class="i-dropdown"></span>
+                    </div>
+                    <div class="lang-options">
+                        <a href="themes/utg/assets/img/logo.svg">
+                            <img src="https://www.uzgastrade.uz/assets/public/images/lang/en.png" alt="English">
+                            <span>English</span>
+                        </a>
+                        <a href="themes/utg/assets/img/logo.svg">
+                            <img src="https://www.uzgastrade.uz/assets/public/images/lang/ru.png" alt="русский язык">
+                            <span>Русский</span>
+                        </a>
+                        <a href="themes/utg/assets/img/logo.svg">
+                            <img src="https://www.uzgastrade.uz/assets/public/images/lang/uz.png" alt="O‘zbekcha">
+                            <span>O‘zbekcha</span>
+                        </a>
+                    </div>
+                </div>
+				<a href="https://cabinet.uzgastrade.uz/#/login" class="button-blue cabinet" target="_blank">Kabinet<span class="i-arrow"></span></a>
+                <button class="navigation" onclick="toggleNavMenu()">
+                    <span class="i-navigation-burger"></span>
+                </button>
+            </div>
+        </div>
+    </navbar>
+
+    <hr>
+
+    <navbar class="navbar-bottom">
+        <div class="container">
+            <div class="navbar-bottom-left">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <span class="i-search"></span>
+                </button>
+            </div>
+
+            <ul class="navbar-bottom-middle">
+                                                <li class="dropdown-submenu">
+                                        <div class="btn-group dropdown-center">
+                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                            Kompaniya haqida                            <span class="i-dropdown"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/about-company">Kompaniya haqida</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/leadership">Boshqaruv</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/infrastructure">Tashkiliy tuzilma</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/central-office">Markaziy ofis</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/faq">Ko'p so'raladigan savollar</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/policy">Tashkilot siyosati</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/youth-union">Yoshlar ittifoqi</a>
+                                                            </li>
+                                                    </ul>
+                    </div>
+                                    </li>
+                                                                                                                                                                                                                                                                                                <li class="dropdown-submenu">
+                                        <div class="btn-group dropdown-center">
+                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                            Biznes                            <span class="i-dropdown"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/bussiness">Biz biznes uchunmiz</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://xarid.uzex.uz/">Tender va tanlov tartiblari</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/menu/qoidalar">Qoidalar</a>
+                                                            </li>
+                                                    </ul>
+                    </div>
+                                    </li>
+                                                                                                                                                                <li class="dropdown-submenu">
+                                        <div class="btn-group dropdown-center">
+                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                            Investorlar va aksiyadorlar                            <span class="i-dropdown"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/governance">Korporativ boshqaruv</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/disclosure">Axborotni oshkor qilish</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/reports">Hisobotlar</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/regulations">Nizom va ichki tartib qoidalari</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/stock">Aksiyalar va dividendlar</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/actives">Aktivlarni sotish</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/compliance">Komplaens</a>
+                                                            </li>
+                                                    </ul>
+                    </div>
+                                    </li>
+                                                                                                                                                                                                                                                                                                <li class="dropdown-submenu">
+                                        <div class="btn-group dropdown-center">
+                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                            Matbuot markazi                            <span class="i-dropdown"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/news">Yangiliklar</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/socialmedia">Biz haqimizda OAVda</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/gallery">Fotogalareya</a>
+                                                            </li>
+                                                        <li >
+                                                                 <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/video">Videogalareya</a>
+                                                            </li>
+                                                    </ul>
+                    </div>
+                                    </li>
+                                                                                                                                                                                                <li >
+                                            <a href="https://www.uzgastrade.uz/uz/careers">Karyera</a>
+                                    </li>
+                                                                <li >
+                                            <a href="https://energymarket.uz/">Energiya samaradorligi</a>
+                                    </li>
+                                                                <li >
+                                            <a href="https://www.uzgastrade.uz/uz/contacts">Aloqa (Bog`lanish)</a>
+                                    </li>
+                                            </ul>
+
+            <div class="navbar-bottom-right">
+                                <a href="https://instagram.com/uzgastrade_aj?igshid=YmMyMTA2M2Y=" rel="nofollow" target="_blank">
+                    <span class="i-instagram"></span>
+                </a>
+                                <a href="https://t.me/UzGasTrade_AJ" rel="nofollow" target="_blank">
+                    <span class="i-telegram"></span>
+                </a>
+                            </div>
+			<a href="https://cabinet.uzgastrade.uz/#/login" class="button-blue cabinet navbar-bottom-cabinet" target="_blank">Kabinet<span class="i-arrow"></span></a>
+        </div>
+    </navbar>
+    <hr>
+
+</header>
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form  id="search" class="cardbox card-100" action="https://www.uzgastrade.uz/uz/search">
+                    <input type="text" id="searchfield" class="card-93 form-control" name="word" />
+                    <button type="button" data-bs-dismiss="modal"> ↵ </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-menu-wrapper">
+    <header class="header">
+		        <div class="test-mode ">
+            <div class="container">
+                <span class="header-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-=""
+                    data-bs-title="The site works in test mode">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        class="icon line">
+                        <path style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.95"
+                            d="M11.95 16.5h.1" />
+                        <path d="m12.89 3.56 8 16A1 1 0 0 1 20 21H4a1 1 0 0 1-.9-1.45l8-16a1 1 0 0 1 1.79.01M12 12v-2"
+                            style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5" />
+                    </svg>
+                    <span class="header-warning__text">
+                        Sayt test rejimida ishlamoqda </span>
+                </span>
+
+                <a href="https://old.uzgastrade.uz/" target="_blank">Saytning eski talqini</a>
+            </div>
+        </div>
+        <navbar class="navbar-top">
+            <div class="container">
+                <div class="navbar-top-left">
+                    <button class="accesibility bvi-open">
+                        <img src="https://www.uzgastrade.uz/assets/public/images/human-sign.svg" alt="">
+                    </button>
+                    <a href="tel:+998555060506216">
+                        <span class="i-phone"></span>
+                        <p class="body4">+998 55 506 05 06 (216)</p>
+                    </a>
+                    <a href="mailto:info@uzgastrade.uz">
+                        <span class="i-mail"></span>
+                        <p class="body4">info@uzgastrade.uz</p>
+                    </a>
+                </div>
+
+                <a href="https://www.uzgastrade.uz/uz/" class="navbar-top-middle">
+                    <img class="middle-logo" src="https://www.uzgastrade.uz/assets/public/images/uzgastrade-logo-blue.svg" alt="">
+                </a>
+
+
+                <div class="navbar-top-right">
+                    <a href="https://www.uzgastrade.uz/uz/disclosure">
+                        <span class="i-info"></span>
+                        <p class="body4">Ochiq ma’lumotlar</p>
+                    </a>
+                    <div class="lang-dropdown">
+                        <div class="lang-selected">
+                            <img src="https://www.uzgastrade.uz/assets/public/images/lang/uz.png" alt="O‘zbekcha">
+                            <p>O‘zbekcha</p>
+                            <span class="i-dropdown"></span>
+                        </div>
+                        <div class="lang-options">
+                            <a href="themes/utg/assets/img/logo.svg">
+                                <img src="https://www.uzgastrade.uz/assets/public/images/lang/en.png" alt="English">
+                                <span>English</span>
+                            </a>
+                            <a href="themes/utg/assets/img/logo.svg">
+                                <img src="https://www.uzgastrade.uz/assets/public/images/lang/ru.png" alt="русский язык">
+                                <span>Русский</span>
+                            </a>
+                            <a href="themes/utg/assets/img/logo.svg">
+                                <img src="https://www.uzgastrade.uz/assets/public/images/lang/uz.png" alt="O‘zbekcha">
+                                <span>O‘zbekcha</span>
+                            </a>
+                        </div>
+                    </div>
+					<a href="https://cabinet.uzgastrade.uz/#/login" class="button-blue cabinet" target="_blank">Kabinet<span class="i-arrow"></span></a>
+                    <button class="navigation" onclick="toggleNavMenu()">
+                        <span class="i-cross"></span>
+                    </button>
+                </div>
+            </div>
+        </navbar>
+
+        <hr>
+
+        <navbar class="navbar-bottom">
+            <div class="container">
+                <div class="navbar-bottom-left">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <span class="i-search"></span>
+                    </button>
+                </div>
+                <ul class="navbar-bottom-middle">
+                                                                        <li class="dropdown-submenu">
+                                                                    <div class="btn-group dropdown-center">
+                                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            Kompaniya haqida                                            <span class="i-dropdown"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/about-company">Kompaniya haqida</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/leadership">Boshqaruv</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/infrastructure">Tashkiliy tuzilma</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/central-office">Markaziy ofis</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/faq">Ko'p so'raladigan savollar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/policy">Tashkilot siyosati</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/youth-union">Yoshlar ittifoqi</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <li class="dropdown-submenu">
+                                                                    <div class="btn-group dropdown-center">
+                                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            Biznes                                            <span class="i-dropdown"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/bussiness">Biz biznes uchunmiz</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://xarid.uzex.uz/">Tender va tanlov tartiblari</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/menu/qoidalar">Qoidalar</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                                                                                                                                                                                                    <li class="dropdown-submenu">
+                                                                    <div class="btn-group dropdown-center">
+                                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            Investorlar va aksiyadorlar                                            <span class="i-dropdown"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/governance">Korporativ boshqaruv</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/disclosure">Axborotni oshkor qilish</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/reports">Hisobotlar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/regulations">Nizom va ichki tartib qoidalari</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/stock">Aksiyalar va dividendlar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/actives">Aktivlarni sotish</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/compliance">Komplaens</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <li class="dropdown-submenu">
+                                                                    <div class="btn-group dropdown-center">
+                                        <button class="btn button dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside" aria-expanded="false">
+                                            Matbuot markazi                                            <span class="i-dropdown"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/news">Yangiliklar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/socialmedia">Biz haqimizda OAVda</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/gallery">Fotogalareya</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/video">Videogalareya</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                                                                                                                                                                                                                                                <li >
+                                                                    <a href="https://www.uzgastrade.uz/uz/careers">Karyera</a>
+                                                            </li>
+                                                                                                <li >
+                                                                    <a href="https://energymarket.uz/">Energiya samaradorligi</a>
+                                                            </li>
+                                                                                                <li >
+                                                                    <a href="https://www.uzgastrade.uz/uz/contacts">Aloqa (Bog`lanish)</a>
+                                                            </li>
+                                                            </ul>
+                <div class="navbar-bottom-right">
+                                            <a href="https://instagram.com/uzgastrade_aj?igshid=YmMyMTA2M2Y=" rel="nofollow" target="_blank">
+                            <span class="i-instagram"></span>
+                        </a>
+                                            <a href="https://t.me/UzGasTrade_AJ" rel="nofollow" target="_blank">
+                            <span class="i-telegram"></span>
+                        </a>
+                                    </div>
+				<a href="https://cabinet.uzgastrade.uz/#/login" class="button-blue cabinet navbar-bottom-cabinet" target="_blank">Kabinet<span class="i-arrow"></span></a>
+            </div>
+        </navbar>
+        <hr>
+        <div class="nav-menu-list">
+            <div class="container">
+
+                <ul>
+                                                                        <li >
+                                
+
+                                            <strong class="section-title">Kompaniya haqida</strong>
+
+                                        <ul>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/about-company">Kompaniya haqida</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/leadership">Boshqaruv</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/infrastructure">Tashkiliy tuzilma</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/central-office">Markaziy ofis</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/faq">Ko'p so'raladigan savollar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/policy">Tashkilot siyosati</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/youth-union">Yoshlar ittifoqi</a>
+                                                                                                    </li>
+                                                                                    </ul>
+
+                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <li >
+                                
+
+                                            <strong class="section-title">Biznes</strong>
+
+                                        <ul>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/bussiness">Biz biznes uchunmiz</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://xarid.uzex.uz/">Tender va tanlov tartiblari</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/menu/qoidalar">Qoidalar</a>
+                                                                                                    </li>
+                                                                                    </ul>
+
+                                                            </li>
+                                                                                                                                                                                                                                    <li >
+                                
+
+                                            <strong class="section-title">Investorlar va aksiyadorlar</strong>
+
+                                        <ul>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/governance">Korporativ boshqaruv</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/disclosure">Axborotni oshkor qilish</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/reports">Hisobotlar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/regulations">Nizom va ichki tartib qoidalari</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/stock">Aksiyalar va dividendlar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/actives">Aktivlarni sotish</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/compliance">Komplaens</a>
+                                                                                                    </li>
+                                                                                    </ul>
+
+                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <li >
+                                
+
+                                            <strong class="section-title">Matbuot markazi</strong>
+
+                                        <ul>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/news">Yangiliklar</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/socialmedia">Biz haqimizda OAVda</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/gallery">Fotogalareya</a>
+                                                                                                    </li>
+                                                                                            <li >
+                                                                                                            <a class="dropdown-item" href="https://www.uzgastrade.uz/uz/video">Videogalareya</a>
+                                                                                                    </li>
+                                                                                    </ul>
+
+                                                            </li>
+                                                                                                                                                                                                                                                                                <li >
+                                                                    <a href="https://www.uzgastrade.uz/uz/careers"><strong class="section-title">Karyera</strong></a>
+                                                            </li>
+                                                                                                <li >
+                                                                    <a href="https://energymarket.uz/"><strong class="section-title">Energiya samaradorligi</strong></a>
+                                                            </li>
+                                                                                                <li >
+                                                                    <a href="https://www.uzgastrade.uz/uz/contacts"><strong class="section-title">Aloqa (Bog`lanish)</strong></a>
+                                                            </li>
+                                                            </ul>
+
+
+            </div>
+        </div>
+        <div class="nav-menu-cards-wrapper">
+            <div class="container">
+                                <a href="https://www.uzgastrade.uz/uz/" class="card card1">
+                    <div class="card-img-wrapper">
+                        <img src="https://www.uzgastrade.uz/uploads/home_block_header/11e52959b4719cdc6c49ed601b0ab676.svg" alt="">
+                    </div>
+                    <div class="card-text-wrapper">
+                        <h3 class="subtitle3">
+                            Biznes hamkorlarga                        </h3>
+                        <p class="body3">
+                            Biz O'zbekiston gaz bozoridagi biznes hamkoringizmiz                        </p>
+                        <button class="body2 button mouse-track-button">
+                            Bizning mijozimizga aylanish                            <span class="i-arrow"></span>
+                        </button>
+                    </div>
+                </a>
+                                <a href="https://www.uzgastrade.uz/uz/" class="card card1">
+                    <div class="card-img-wrapper">
+                        <img src="https://www.uzgastrade.uz/uploads/home_block_header/489d0de62d20e9adf5f9e46e1cb8b930.svg" alt="">
+                    </div>
+                    <div class="card-text-wrapper">
+                        <h3 class="subtitle3">
+                            Investor va aksiyadorlarga                        </h3>
+                        <p class="body3">
+                            Aksiya va dividendlar hamda aktivlarni sotish haqida ochiq ma’lumotlar                        </p>
+                        <button class="body2 button mouse-track-button">
+                            Batafsil ma’lumot olish                            <span class="i-arrow"></span>
+                        </button>
+                    </div>
+                </a>
+                                <a href="https://www.uzgastrade.uz/uz/" class="card card1">
+                    <div class="card-img-wrapper">
+                        <img src="https://www.uzgastrade.uz/uploads/home_block_header/c347e6fe456c953c1b616e2d38bfe3f1.png" alt="">
+                    </div>
+                    <div class="card-text-wrapper">
+                        <h3 class="subtitle3">
+                            Qayta aloqa                        </h3>
+                        <p class="body3">
+                            Agar savollaringiz mavjud bo’lsa biz bilan bog‘laning                        </p>
+                        <button class="body2 button mouse-track-button">
+                            Aloqaga chiqish                            <span class="i-arrow"></span>
+                        </button>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </header>
+</div>
+
+<svg width="22" id="master-flame-svg" style="display: none;" height="22" viewBox="0 0 22 22" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <path
+            d="M4.3042 10.0435C4.3042 13.8696 10.7607 17.9348 11.239 22C11.7172 17.9348 17.9346 13.8696 17.9346 10.0435C17.9346 5.02174 12.4346 2.86957 11.239 0C10.2825 2.86957 4.3042 5.26087 4.3042 10.0435Z"
+            fill="#0070CB" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M11.1938 5.08021C9.47834 6.21305 8.11952 7.76866 7.52985 9.2749C7.23931 10.0172 7.17383 10.3782 7.17383 11.2389C7.17383 11.885 7.18747 12.0471 7.27061 12.3882C7.53766 13.4837 8.14941 14.8946 9.03722 16.4625C9.53721 17.3455 10.1812 18.379 10.212 18.3479C10.223 18.3368 10.0821 17.9457 9.899 17.4788C9.27494 15.8876 8.88143 14.5981 8.75153 13.7187C8.66952 13.163 8.66755 12.3389 8.74717 11.8817C8.98819 10.4978 9.88191 9.24508 11.395 8.17005L11.5899 8.03171L11.8103 8.16815C12.258 8.44512 12.6665 8.77667 13.1172 9.22884C13.8146 9.92836 14.2506 10.6602 14.4923 11.5369C14.5954 11.9109 14.6061 12.0157 14.6069 12.6598C14.6079 13.4316 14.5561 13.772 14.3385 14.4254C14.2754 14.615 14.239 14.7701 14.2578 14.7701C14.3099 14.7701 14.6902 14.1309 14.9166 13.6627C15.1671 13.1447 15.3852 12.5033 15.5065 11.9285C15.6378 11.3054 15.6377 10.3343 15.506 9.71547C15.1939 8.24812 14.3671 6.9476 12.9701 5.72681C12.5177 5.33149 11.7782 4.78259 11.698 4.78259C11.6686 4.78259 11.4417 4.91653 11.1938 5.08021Z"
+          fill="#74BAF3" />
+</svg>
+
+
+
+
+            <main class="main  ">
+
+
+        <style>
+    .error {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .error-images {
+        display: flex;
+        align-items: center;
+        height: 260px;
+        gap: 32px;
+        font-size: 200px;
+    }
+    .error-images img {
+        height: 100%;
+        width: auto;
+    }
+    @media only screen and (max-width: 574px) {
+        .error-images {
+            height: 80px;
+        }
+    }
+    .error-image {
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        border: 6px solid #0B2556;
+    }
+    @media only screen and (max-width: 991px) {
+        .error-image {
+            border-width: 4px;
+        }
+    }
+    @media only screen and (max-width: 574px) {
+        .error-image {
+            border-width: 2px;
+        }
+    }
+    .error-message {
+        color: #000;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: -0.24px;
+    }
+    @media only screen and (max-width: 574px) {
+        .error-message {
+            font-size: 16px;
+        }
+    }
+
+</style>
+<div class="container">
+    <div class="error">
+        <div class="error-images">
+            404
+        </div>
+        <span class="error-message">
+
+                </span>
+        <a href="https://www.uzgastrade.uz/uz/" class="button">
+            Bosh sahifa        </a>
+    </div>
+</div>
+
+    </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex flex-column col-lg-3 col-md-6 col-12 footer-logo">
+                <a href="https://www.uzgastrade.uz/uz/" class="mb-16">
+                    <img src="https://www.uzgastrade.uz/assets/public/images/uzgastrade-logo-white.svg" alt="">
+                </a>
+                <p class="mb-20">AO "UzGasTrade"</p>
+                <a href="https://www.uzgastrade.uz/uz/contacts" class="button-blue mb-20">Savollaringiz bormi?                    <span class="i-arrow"></span></a>
+                </a>
+                <div class="right socials">
+                                            <a href="https://instagram.com/uzgastrade_aj?igshid=YmMyMTA2M2Y=" rel="nofollow" target="_blank" class="body5">
+                            <span class="i-instagram"></span>
+                        </a>
+                                            <a href="https://t.me/UzGasTrade_AJ" rel="nofollow" target="_blank" class="body5">
+                            <span class="i-telegram"></span>
+                        </a>
+                                        <a href="#">
+                        <!-- START WWW.UZ TOP-RATING --><script language="javascript" type="text/javascript">
+                            <!--
+                            top_js="1.0";top_r="id=47004&r="+escape(document.referrer)+"&pg="+escape(window.location.href);document.cookie="smart_top=1; path=/"; top_r+="&c="+(document.cookie?"Y":"N")
+                            //-->
+                        </script>
+                        <script language="javascript1.1" type="text/javascript">
+                            <!--
+                            top_js="1.1";top_r+="&j="+(navigator.javaEnabled()?"Y":"N")
+                            //-->
+                        </script>
+                        <script language="javascript1.2" type="text/javascript">
+                            <!--
+                            top_js="1.2";top_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+                                (((navigator.appName.substring(0,3)=="Mic"))?screen.colorDepth:screen.pixelDepth)
+                            //-->
+                        </script>
+                        <script language="javascript1.3" type="text/javascript">
+                            <!--
+                            top_js="1.3";
+                            //-->
+                        </script>
+                        <SCRIPT language="JavaScript" type="text/javascript">
+                            <!--
+                            top_rat="&col=340F6E&t=ffffff&p=BD6F6F";top_r+="&js="+top_js+"";document.write('<a href="http://www.uz/ru/res/visitor/index?id=47004" target=_top><img src="http://cnt0.www.uz/counter/collect?'+top_r+top_rat+'" width=88 height=31 border=0 alt="Топ рейтинг www.uz"></a>')//-->
+                        </SCRIPT><NOSCRIPT><A href="http://www.uz/ru/res/visitor/index?id=47004" target=_top><IMG height=31 src="http://cnt0.www.uz/counter/collect?id=47004&pg=http%3A//uzinfocom.uz&&col=340F6E&amp;t=ffffff&amp;p=BD6F6F" width=88 border=0 alt="Топ рейтинг www.uz"></A></NOSCRIPT><!-- FINISH WWW.UZ TOP-RATING -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 footer-links">
+                <h5 class="subtitle4 c">Bo`limlar</h5>
+                <ul>
+                                                            <li><a href="https://www.uzgastrade.uz/uz/about-company" class="body5 light">Kompaniya haqida</a></li>
+                                                                                                                                                                                                                                                                                                                                                                        <li><a href="https://www.uzgastrade.uz/uz/biznes" class="body5 light">Biznes</a></li>
+                                                                                                                                                                                                        <li><a href="https://www.uzgastrade.uz/uz/governance" class="body5 light">Investorlar va aksiyadorlar</a></li>
+                                                                                                                                                                                                                                                                                                                                                                        <li><a href="https://www.uzgastrade.uz/uz/news" class="body5 light">Matbuot markazi</a></li>
+                                                                                                                                                                                                                                                <li><a href="https://www.uzgastrade.uz/uz/careers" class="body5 light">Karyera</a></li>
+                                                                                <li><a href="https://energymarket.uz/" class="body5 light">Energiya samaradorligi</a></li>
+                                                                                <li><a href="https://www.uzgastrade.uz/uz/contacts" class="body5 light">Aloqa (Bog`lanish)</a></li>
+                                                        </ul>
+            </div>
+
+            <div class="d-flex flex-column col-lg-3 col-6 footer-contact">
+                <h5 class="subtitle4 mb-8">Aloqa</h5>
+                <p class=" light">Telefon raqami: </p>
+                <p class="mb-24 body1">+998 55 506 05 06 (216)</p>
+                <p class=" light">Elektron manzil: </p>
+                <p class="mb-24 body1">info@uzgastrade.uz</p>
+                <p class=" light">Ish vaqtlari: </p>
+                <p class="body1">Dush - Jum: 9:00 - 18:00</p>
+            </div>
+
+            <div class="d-flex flex-column col-lg-3 col-12 footer-map">
+                <h5 class="subtitle4 mb-8">&nbsp;</h5>
+                <p class="light">Manzil:</p>
+                <p class="body1 mb-12">
+                    100007, O'zbekiston Respublikasi, Toshkent shahri, Mirzo-Ulug'bek tumani, Mirzo Ulug'bek shoh ko'chasi, 32 A.                </p>
+                 <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.8424498672443!2d69.31748177962017!3d41.32016889047214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8970ad92b1cb8d33%3A0xf9a882ae40b99c66!2sUzGasTrade%20JSC!5e0!3m2!1sen!2s!4v1750599593471!5m2!1sen!2s"
+                        width="388" height="112" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+
+        </div>
+        <hr class="hr">
+        <div class="footer-terms">
+            <p>© 2026,  Barcha huquqlar himoyalangan            </p>
+
+            <a href="https://proend.uz">
+                <p class="body5">Ishlab chiquvchi:</p>
+                <img src="https://www.uzgastrade.uz/assets/public/images/proend.svg" alt="">
+            </a>
+        </div>
+    </div>
+</footer>        <script src="https://www.uzgastrade.uz/assets/public/bvi/js/bvi.js"></script>
+<script>
+    new isvek.Bvi({
+        target: '.bvi-open',
+        fontSize: 14,
+        panelFixed: false,
+        panelHide: true,
+    })
+</script>
+<script src="https://www.uzgastrade.uz/assets/public/js/aos.js"></script>
+<script src="https://www.uzgastrade.uz/assets/public/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://www.uzgastrade.uz/assets/public/js/gsap.js"></script>
+<script src="https://www.uzgastrade.uz/assets/public/js/draggable.js"></script>
+<script src="https://www.uzgastrade.uz/assets/public/js/owl.js"></script>
+
+<script src="https://www.uzgastrade.uz/assets/public/fancybox/fancybox.js"></script>
+<script>
+    $(document).ready(function () {
+        const links = $('.links-carousel');
+
+        links.owlCarousel({
+            loop: true,
+            margin: 16,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            center: false,
+            autoplayTimeout: 2000,
+            smartSpeed: 1000,
+            autoplayHoverPause: true,
+            onInitialized: function (e) {
+                const carousel = $(e.target);
+                const dots = initCarouselLines(e.item.count, i => carousel.trigger('to.owl.carousel', [i]));
+                carousel.on('changed.owl.carousel', e => dots.setActive(e.item.index % e.item.count));
+            },
+            responsive: {
+                0: {
+                    items: 1,
+                    center: true
+                },
+                545: {
+                    items: 2,
+                    center: false
+                },
+                810: {
+                    items: 3,
+                    center: true
+                },
+                1068: {
+                    items: 4
+                },
+                1600: {
+                    items: 5
+                }
+            },
+        });
+    });
+
+
+
+
+</script>
+
+<script>
+    </script>
+<div class="modal fade" id="volume" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="exampleModalLabel"><i class="fa fa-globe" aria-hidden="true"></i> Ovozli o'qish</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Saytda ovozli oʼqish imkoniyati mavjud, Matnni ovozli eshitish uchun matinni belgilang va paydo bolgan tugmani ustiga bosing            </div>
+        </div>
+    </div>
+</div>
+<span id="gs_tooltip_title" style="visibility: hidden;"><span class="the-tooltip top left dark-midnight-blue"><span class="tooltip_inner">Нажмите на кнопку ниже, чтобы прослушать текст</span></span></span>
+<span style="position: absolute; margin-top: -50000px;" id="gs_tooltip"><span class="the-tooltip bottom left dark-midnight-blue"><span class="tooltip_inner powered_by_3 powered_by">Powered by <a href="http://2glux.com/projects/gspeech" target="_top" class="backlink_a">GSpeech</a></span></span></span>
+<div id="sound_container" class="sound_div sound_div_basic size_1 speaker_32" title="" style="">
+    <div id="sound_text"></div>
+</div>
+<div id="sound_audio"></div>
+<link rel="stylesheet" type="text/css" href="https://www.uzgastrade.uz/assets/public/gs/gspeech.css?v=0.2" />
+<link rel="stylesheet" type="text/css" href="https://www.uzgastrade.uz/assets/public/gs/the-tooltip.css?v=0.2" />
+<script src="https://www.uzgastrade.uz/assets/public/gs/gs.js?v=0.2"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/color.js?v=0.2"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/jQueryRotate.2.1.js?v=0.2"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/easing.js?v=0.2"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/mediaelement-and-player.min.js?v=0.1"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/gspeech.js?v=1777290855"></script>
+<script type="text/javascript" src="https://www.uzgastrade.uz/assets/public/gs/gspeech_pro.js?v=0.2"></script>
+
+
+
+
+
+<script src="https://www.uzgastrade.uz/assets/public/js/main.js?v=1777290855"></script>
+<script>
+   /* AOS.init({
+        disable: function() {
+            var maxWidth = 767;
+            return window.innerWidth < maxWidth;
+        }
+    });*/
+</script>
+<script>
+    jQuery(document).ready(function () {
+        $('.btn-adaptive').click(function () {
+            //  var a = $(this).attr("href");
+           // console.log("test")
+            OpenWindowMobile('https://www.uzgastrade.uz/', 420, 568, "media");
+            return false
+
+        });
+
+        function OpenWindowMobile(b, d, a, c) {
+            if (!c) {
+                c = window
+            }
+            if (!d) {
+                d = 800
+            }
+            if (!a) {
+                a = 600
+            }
+            var f = (screen.width - d) / 2;
+            var e = window.open(b, c, "left=" + f + ",top=100,width=" + d + ",height=" + a + ",directories=no,menubar=no,status=yes,resizable=yes,scrollbars=yes,toolbar=no");
+            if (e.opener == null) {
+                e.opener = self
+            }
+            e.focus()
+        }
+    });
+</script>
+
+    </body>
+
+    </html>
+    
