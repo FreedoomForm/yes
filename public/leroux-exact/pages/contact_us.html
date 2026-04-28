@@ -90,11 +90,13 @@ body.qodef-header--sticky-display .qodef-header-sticky { display: block !importa
 body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
 /* Mobile sticky header */
 @media only screen and (max-width: 1024px) {
-    #qodef-page-mobile-header { display: block !important; position: fixed !important; top: 40px !important; left: 0 !important; right: 0 !important; z-index: 9999 !important; background-color: #19272b !important; padding: 15px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; transform: translateY(0) !important; }
+    #qodef-page-mobile-header { display: block !important; position: fixed !important; top: 40px !important; left: 0 !important; right: 0 !important; z-index: 9999 !important; background-color: #ffffff !important; padding: 15px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; transform: translateY(0) !important; }
     #qodef-page-mobile-header.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
     #qodef-page-mobile-header-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; }
     .qodef-mobile-header-logo-link img { height: 35px !important; width: auto !important; }
-    .qodef-mobile-header-navigation { background-color: #19272b !important; padding: 20px !important; }
+    .qodef-mobile-header-navigation { background-color: #ffffff !important; padding: 20px !important; }
+    .qodef-mobile-header-navigation a { color: #19272b !important; }
+    .qodef-mobile-header-opener .qodef-m-line { background-color: #19272b !important; }
     #qodef-page-outer { margin-top: 100px !important; }
 }
 #qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; }
@@ -294,7 +296,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <header id="qodef-page-mobile-header" role="banner">
 <div class="" id="qodef-page-mobile-header-inner">
 <a class="qodef-mobile-header-logo-link qodef-height--set qodef-source--image" href="/" itemprop="url" rel="home">
-<img alt="logo main" class="qodef-header-logo-image qodef--main" height="46" itemprop="image" loading="lazy" src="../images/ab51c578_century_intelligence_logo.png" width="174"/></a>
+<img alt="logo main" class="qodef-header-logo-image qodef--main" height="46" itemprop="image" loading="lazy" src="../images/century_intelligence_logo.svg" width="174"/></a>
 <a class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener" href="javascript:void(0)">
 <span class="qodef-m-icon qodef--open">
 <span class="qodef-m-lines"><span class="qodef-m-line qodef--1"></span><span class="qodef-m-line qodef--2"></span></span> </span>
@@ -628,45 +630,29 @@ document.addEventListener('DOMContentLoaded', function() {
     var lastScrollTop = 0;
     var scrollThreshold = 100;
 
-    // Desktop sticky header
-    if (stickyHeader) {
-        window.addEventListener('scroll', function() {
-            var currentScroll = window.scrollY;
+    window.addEventListener('scroll', function() {
+        var currentScroll = window.scrollY;
+        var isMobile = window.innerWidth <= 1024;
 
-            if (currentScroll > scrollThreshold) {
-                if (currentScroll > lastScrollTop) {
-                    stickyHeader.classList.add('hide');
-                }
-                else if (currentScroll < lastScrollTop) {
-                    stickyHeader.classList.remove('hide');
-                }
-            } else {
-                stickyHeader.classList.remove('hide');
+        if (currentScroll > scrollThreshold) {
+            if (currentScroll > lastScrollTop) {
+                // Scrolling down
+                if (stickyHeader && !isMobile) stickyHeader.classList.add('hide');
+                if (mobileHeader && isMobile) mobileHeader.classList.add('hide');
             }
-
-            lastScrollTop = currentScroll;
-        });
-    }
-
-    // Mobile sticky header - same logic
-    if (mobileHeader) {
-        window.addEventListener('scroll', function() {
-            var currentScroll = window.scrollY;
-
-            if (currentScroll > scrollThreshold) {
-                if (currentScroll > lastScrollTop) {
-                    mobileHeader.classList.add('hide');
-                }
-                else if (currentScroll < lastScrollTop) {
-                    mobileHeader.classList.remove('hide');
-                }
-            } else {
-                mobileHeader.classList.remove('hide');
+            else if (currentScroll < lastScrollTop) {
+                // Scrolling up
+                if (stickyHeader && !isMobile) stickyHeader.classList.remove('hide');
+                if (mobileHeader && isMobile) mobileHeader.classList.remove('hide');
             }
+        } else {
+            // Near top - always show headers
+            if (stickyHeader) stickyHeader.classList.remove('hide');
+            if (mobileHeader) mobileHeader.classList.remove('hide');
+        }
 
-            lastScrollTop = currentScroll;
-        });
-    }
+        lastScrollTop = currentScroll;
+    });
 
     // Hide undefined elements
     setTimeout(function() {
