@@ -1043,19 +1043,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                                         </div>
                 </div>
-                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-47f570a" data-id="47f570a" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-2dfe5ba elementor-widget__width-initial elementor-widget elementor-widget-leroux_core_section_title" data-id="2dfe5ba" data-element_type="widget" data-widget_type="leroux_core_section_title.default">
-                                <div class="elementor-widget-container">
-                        <div class="qodef-shortcode qodef-m  qodef-section-title qodef-alignment--right ">
-                <h4 class="qodef-m-title" style="color: #FFFFFF">
-                                        Цифровой маркетинг                       </h4>
-                <p class="qodef-m-text" style="margin-top: 10px;color: #BCC3C5">Инновационные подходы к цифровому продвижению для максимального охвата аудитории.</p>
-</div>
-                </div>
-                                </div>
-                                        </div>
-                </div>
+
                                         </div>
                 </section>
                                 
@@ -1455,12 +1443,11 @@ function switchLanguage(lang) {
 document.addEventListener('DOMContentLoaded', function() { var savedLang = localStorage.getItem('preferredLanguage') || 'ru'; var langSelect = document.getElementById('lang-select'); if (langSelect) langSelect.value = savedLang; });
 </script>
 <script>
-// Sticky header: visible initially, hide on scroll down, show on scroll up
+// Sticky header: visible at top, hide on scroll down, show immediately on scroll up
 document.addEventListener('DOMContentLoaded', function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
     var lastScrollTop = 0;
     var scrollThreshold = 100;
-    var hideTimeout = null;
 
     if (stickyHeader) {
         // Header is visible by default (no 'hide' class)
@@ -1472,12 +1459,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (currentScroll > lastScrollTop) {
                     stickyHeader.classList.add('hide');
                 }
-                // Scrolling up - show header after 1 second delay
+                // Scrolling up - show header immediately
                 else if (currentScroll < lastScrollTop) {
-                    if (hideTimeout) clearTimeout(hideTimeout);
-                    hideTimeout = setTimeout(function() {
-                        stickyHeader.classList.remove('hide');
-                    }, 1000);
+                    stickyHeader.classList.remove('hide');
                 }
             } else {
                 // Near top - show header
