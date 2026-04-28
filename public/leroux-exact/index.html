@@ -83,15 +83,17 @@ body  .qodef-widget-block-978b67f7 .qi-block-section-title .qodef-m-title{color:
 <style id='leroux-style-inline-css' type='text/css'>
 #qodef-page-outer { margin-top: 0px;}@media only screen и (max-width: 1024px) { #qodef-page-outer { margin-top: -70px;}}#qodef-page-footer-top-area-inner { padding-bottom: 10px;}#qodef-page-footer-bottom-area-inner { padding-top: 0px;padding-bottom: 90px;}#qodef-page-inner { padding: 0px 0px 0px 0px;}@media only screen и (max-width: 1024px) { #qodef-page-inner { padding: 0px 0px 0px 0px;}}.qodef-header-sticky .qodef-header-sticky-inner { padding-left: 42px;padding-right: 42px;}#qodef-top-area { background-color: rgba(0,0,0,0.2);}#qodef-top-area-inner { height: 40px;padding-left: 42px;padding-right: 42px;}#qodef-page-header .qodef-header-logo-link { height: 23px;}#qodef-page-mobile-header .qodef-mobile-header-logo-link { height: 23px;}.qodef-search-cover-form { top: -40px;height: calc( 100% + 40px );}.qodef-page-title { background-color: #20282d;}.qodef-page-title .qodef-m-content { padding-top: 124px;}.qodef-page-title .qodef-m-title { color: #ffffff;}@media only screen и (max-width: 1024px) { .qodef-page-title .qodef-m-content { padding-top: 70px;}}.qodef-header--standard #qodef-page-header { background-color: #ffffff;}.qodef-header--standard #qodef-page-header-inner { padding-left: 42px;padding-right: 42px;}.qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(0,0,0,0.1);border-bottom-width: 1px;}#qodef-page-header { height: 0 !important; min-height: 0 !important; overflow: visible !important; }
 #qodef-page-header-inner { display: none !important; }
-.qodef-header-sticky { top: 60px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(-100%) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 0 !important; pointer-events: none !important; display: block !important; }
+.qodef-header-sticky { top: 40px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(0) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; pointer-events: auto !important; display: block !important; }
 .qodef-header-sticky .qodef-header-sticky-inner { padding: 40px 42px !important; }
 .qodef-header-sticky .qodef-header-logo-link img { height: 70px !important; width: auto !important; }
 .qodef-header-sticky .qodef-header-navigation .menu > li > a { font-size: 18px !important; }
 .qodef-header-sticky .qodef-header-navigation .menu > li { margin: 0 30px !important; }
-.qodef-header-sticky.show { transform: translateY(0) !important; opacity: 1 !important; pointer-events: auto !important; display: block !important; }
 .qodef-header-sticky.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
-body.qodef-header--sticky-display .qodef-header-sticky { display: none !important; }
-body.qodef-header--sticky-display .qodef-header-sticky.show { display: block !important; }
+body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
+body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
+/* Hide undefined elements */
+.qodef-m-digit:empty, .qodef-m-title:empty, .qodef-m-text:empty { display: none !important; }
+span:contains('undefined'), div:contains('undefined'):not([class*="script"]) { display: none !important; }
 #qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; }
 #qodef-top-area a { color: #ffffff !important; }
 .qodef-rev-pagination { display: none !important; }
@@ -1453,36 +1455,47 @@ function switchLanguage(lang) {
 document.addEventListener('DOMContentLoaded', function() { var savedLang = localStorage.getItem('preferredLanguage') || 'ru'; var langSelect = document.getElementById('lang-select'); if (langSelect) langSelect.value = savedLang; });
 </script>
 <script>
-// Show sticky header on scroll down, hide on scroll up
+// Sticky header: visible initially, hide on scroll down, show on scroll up
 document.addEventListener('DOMContentLoaded', function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
     var lastScrollTop = 0;
-    var scrollThreshold = 60;
+    var scrollThreshold = 100;
+    var hideTimeout = null;
 
     if (stickyHeader) {
+        // Header is visible by default (no 'hide' class)
         window.addEventListener('scroll', function() {
             var currentScroll = window.scrollY;
 
             if (currentScroll > scrollThreshold) {
-                // Scrolling down - show header
+                // Scrolling down - hide header
                 if (currentScroll > lastScrollTop) {
-                    stickyHeader.classList.add('show');
-                    stickyHeader.classList.remove('hide');
-                }
-                // Scrolling up - hide header
-                else if (currentScroll < lastScrollTop) {
-                    stickyHeader.classList.remove('show');
                     stickyHeader.classList.add('hide');
                 }
+                // Scrolling up - show header after 1 second delay
+                else if (currentScroll < lastScrollTop) {
+                    if (hideTimeout) clearTimeout(hideTimeout);
+                    hideTimeout = setTimeout(function() {
+                        stickyHeader.classList.remove('hide');
+                    }, 1000);
+                }
             } else {
-                // Near top - hide header
-                stickyHeader.classList.remove('show');
-                stickyHeader.classList.add('hide');
+                // Near top - show header
+                stickyHeader.classList.remove('hide');
             }
 
             lastScrollTop = currentScroll;
         });
     }
+
+    // Hide undefined elements
+    setTimeout(function() {
+        document.querySelectorAll('.qodef-m-digit, .qodef-m-title, .qodef-m-text, span, div').forEach(function(el) {
+            if (el.innerText === 'undefined' || el.textContent === 'undefined') {
+                el.style.display = 'none';
+            }
+        });
+    }, 500);
 });
 </script>
 </body>
