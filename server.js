@@ -29,18 +29,25 @@ function serveStatic(filePath, res) {
   const ext = path.extname(filePath).toLowerCase();
   const contentType = MIME_TYPES[ext] || 'application/octet-stream';
   
-  fs.readFile(filePath, (err, content) => {
-    if (err) {
-      console.log('File not found:', filePath);
-      res.writeHead(404, { 'Content-Type': 'text/plain' });
-      res.end('Not Found');
-    } else {
-      res.writeHead(200, {
-        'Content-Type': contentType,
-        'Cache-Control': 'no-cache'
-      });
-      res.end(content);
+  fs.stat(filePath, (statErr, stats) => {
+    if (statErr) {
+      res.writeHead(404, { 'Content-Type': 'text/plain', 'Connection': 'close' });
+      return res.end('Not Found');
     }
+    
+    fs.readFile(filePath, (err, content) => {
+      if (err) {
+        res.writeHead(404, { 'Content-Type': 'text/plain', 'Connection': 'close' });
+        res.end('Not Found');
+      } else {
+        res.writeHead(200, {
+          'Content-Type': contentType,
+          'Content-Length': Buffer.byteLength(content),
+          'Connection': 'close'
+        });
+        res.end(content);
+      }
+    });
   });
 }
 
@@ -90,47 +97,64 @@ async function sendTelegram(chatId, text) {
 }
 
 // Handle contact form
-async function handleContact(req, res) {
+function handleContact(req, res) {
   let body = '';
   req.on('data', chunk => body += chunk);
-  req.on('end', async () => {
+  req.on('end', () => {
+    processContact(body, res);
+  });
+  req.on('error', (e) => {
+    console.error('Request error:', e);
+    res.writeHead(500, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ error: 'Request error' }));
+  });
+}
+
+async function processContact(body, res) {
+  try {
+    const data = JSON.parse(body);
+    const { name, phone, message } = data;
+    
+    if (!name || !phone || !message) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify({ error: 'Заполните все поля' }));
+    }
+    
+    const chatIds = await getChatIds();
+    if (chatIds.length === 0) {
+      res.writeHead(400, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify({ error: 'Сначала отправьте /start боту в Telegram' }));
+    }
+    
+    const msg = `<b>Новое сообщение с сайта Century Intelligence</b>\n\n<b>Имя:</b> ${name}\n<b>Телефон:</b> ${phone}\n<b>Сообщение:</b>\n${message}`;
+    
+    const results = await Promise.all(chatIds.map(id => sendTelegram(id, msg)));
+    const success = results.filter(Boolean).length;
+    
+    if (success > 0) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ success: true, message: `Отправлено ${success} получателю(ям)` }));
+    } else {
+      res.writeHead(500, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'Ошибка отправки' }));
+    }
+  } catch (e) {
+    console.error('Process contact error:', e);
     try {
-      const data = JSON.parse(body);
-      const { name, email, message } = data;
-      
-      if (!name || !email || !message) {
-        res.writeHead(400, { 'Content-Type': 'application/json' });
-        return res.end(JSON.stringify({ error: 'Заполните все поля' }));
-      }
-      
-      const chatIds = await getChatIds();
-      if (chatIds.length === 0) {
-        res.writeHead(400, { 'Content-Type': 'application/json' });
-        return res.end(JSON.stringify({ error: 'Сначала отправьте /start боту в Telegram' }));
-      }
-      
-      const msg = `<b>Новое сообщение с сайта Century Intelligence</b>\n\n<b>Имя:</b> ${name}\n<b>Email:</b> ${email}\n<b>Сообщение:</b>\n${message}`;
-      
-      const results = await Promise.all(chatIds.map(id => sendTelegram(id, msg)));
-      const success = results.filter(Boolean).length;
-      
-      if (success > 0) {
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ success: true, message: `Отправлено ${success} получателю(ям)` }));
-      } else {
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'Ошибка отправки' }));
-      }
-    } catch (e) {
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Ошибка сервера' }));
+    } catch (e2) {
+      console.error('Response error:', e2);
     }
-  });
+  }
 }
 
 // Create server
 const server = http.createServer((req, res) => {
   try {
+    // Always close connection after response
+    res.setHeader('Connection', 'close');
+    
     const url = new URL(req.url, `http://${req.headers.host}`);
     
     // API routes
@@ -157,5 +181,12 @@ server.listen(PORT, '0.0.0.0', () => {
 // Keep process alive
 process.stdin.resume();
 
-process.on('uncaughtException', (err) => console.error('Error:', err));
-process.on('unhandledRejection', (err) => console.error('Rejection:', err));
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught Error:', err);
+  // Don't exit, keep running
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  // Don't exit, keep running
+});
