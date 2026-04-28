@@ -940,12 +940,11 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 </script>
 <div data-style="@media only screen and (max-width: 680px){.qodef-counter-749 .qodef-m-digit { font-size: 100px!important;}}" id="leroux-core-page-inline-style"></div><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f2d89aeaf2b09cc',t:'MTc3NzI4OTg3Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
 <script>
-// Sticky header: visible initially, hide on scroll down, show on scroll up
+// Sticky header: visible at top, hide on scroll down, show immediately on scroll up
 document.addEventListener('DOMContentLoaded', function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
     var lastScrollTop = 0;
     var scrollThreshold = 100;
-    var hideTimeout = null;
 
     if (stickyHeader) {
         // Header is visible by default (no 'hide' class)
@@ -957,12 +956,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (currentScroll > lastScrollTop) {
                     stickyHeader.classList.add('hide');
                 }
-                // Scrolling up - show header after 1 second delay
+                // Scrolling up - show header immediately
                 else if (currentScroll < lastScrollTop) {
-                    if (hideTimeout) clearTimeout(hideTimeout);
-                    hideTimeout = setTimeout(function() {
-                        stickyHeader.classList.remove('hide');
-                    }, 1000);
+                    stickyHeader.classList.remove('hide');
                 }
             } else {
                 // Near top - show header
