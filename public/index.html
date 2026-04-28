@@ -1559,11 +1559,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 statusDiv.style.display = 'block';
                 if (data.success) {
                     statusDiv.style.color = '#27ae60';
-                    statusDiv.innerHTML = data.message;
+                    statusDiv.innerHTML = 'Отправлено!';
                     // Clear form
                     document.getElementById('contact-name').value = '';
                     document.getElementById('contact-phone').value = '';
                     document.getElementById('contact-message').value = '';
+                    // Hide status after 2 seconds
+                    setTimeout(function() {
+                        statusDiv.style.display = 'none';
+                    }, 2000);
                 } else {
                     statusDiv.style.color = '#e74c3c';
                     statusDiv.innerHTML = data.error || 'Произошла ошибка при отправке';
@@ -1624,11 +1628,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 statusDiv.style.display = 'block';
                 if (data.success) {
                     statusDiv.style.color = '#27ae60';
-                    statusDiv.innerHTML = data.message;
+                    statusDiv.innerHTML = 'Отправлено!';
                     // Clear form
                     document.getElementById('footer-name').value = '';
                     document.getElementById('footer-phone').value = '';
                     document.getElementById('footer-message').value = '';
+                    // Hide status after 2 seconds
+                    setTimeout(function() {
+                        statusDiv.style.display = 'none';
+                    }, 2000);
                 } else {
                     statusDiv.style.color = '#e74c3c';
                     statusDiv.innerHTML = data.error || 'Произошла ошибка при отправке';
