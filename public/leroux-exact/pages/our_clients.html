@@ -80,11 +80,12 @@ body  .qodef-widget-block-978b67f7 .qi-block-section-title .qodef-m-title{color:
 <style id="leroux-style-inline-css" type="text/css">
 #qodef-page-outer { margin-top: 0px;}#qodef-page-footer-top-area-inner { padding-bottom: 10px;}#qodef-page-footer-bottom-area-inner { padding-top: 0px;padding-bottom: 90px;}#qodef-page-inner { padding: 0px 0px 0px 0px;}@media only screen and (max-width: 1024px) { #qodef-page-inner { padding: 0px 0px 0px 0px;}}.qodef-header-sticky .qodef-header-sticky-inner { padding-left: 42px;padding-right: 42px;}#qodef-top-area { background-color: rgba(0,0,0,0.2);}#qodef-top-area-inner { height: 40px;padding-left: 42px;padding-right: 42px;}#qodef-page-header .qodef-header-logo-link { height: 23px;}#qodef-page-mobile-header .qodef-mobile-header-logo-link { height: 23px;}.qodef-search-cover-form { top: -40px;height: calc( 100% + 40px );}.qodef-page-title { background-color: #20282d;}.qodef-page-title .qodef-m-content { padding-top: 124px;}.qodef-page-title .qodef-m-title { color: #ffffff;}.qodef-header--standard #qodef-page-header { background-color: #ffffff;}.qodef-header--standard #qodef-page-header-inner { padding-left: 42px;padding-right: 42px;}.qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(0,0,0,0.1);border-bottom-width: 1px;}#qodef-page-header { height: 0 !important; min-height: 0 !important; overflow: visible !important; }
 #qodef-page-header-inner { display: none !important; }
-.qodef-header-sticky { display: none !important; top: 40px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 100 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; }
-.qodef-header-sticky .qodef-header-sticky-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; }
+.qodef-header-sticky { top: 0 !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(-100%); transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 0; pointer-events: none; }
+.qodef-header-sticky .qodef-header-sticky-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; padding: 20px 42px !important; }
+.qodef-header-sticky .qodef-header-logo-link img { height: 35px !important; width: auto !important; }
 .qodef-header-sticky .qodef-header-navigation { flex: 1 !important; display: flex !important; justify-content: center !important; }
-header#qodef-page-header .qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; }
-.qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; }
+.qodef-header-sticky.show { transform: translateY(0) !important; opacity: 1 !important; pointer-events: auto; }
+.qodef-header-sticky.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none; }
 body.qodef-header--sticky-display .qodef-header-sticky { display: none !important; }
 body.qodef-header--sticky-display .qodef-header-sticky.show { display: block !important; }
 #qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; }
@@ -609,7 +610,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="qodef-grid qodef-layout--columns qodef-responsive--custom qodef-col-num--2 qodef-predefined qodef-col-num--680--1 qodef-col-num--480--1 qodef-gutter--normal qodef-alignment--left">
 <div class="qodef-grid-inner">
 <div class="qodef-grid-item">
-<div class="widget widget_block" data-area="qodef-footer-top-area-column-1" id="block-25"><div class="wp-block-qi-blocks-single-image qodef-block-container qodef-widget-block-f2fa37e2"><div class="qi-block-single-image qodef-block qodef-m"><div class="qodef-m-image"><a href="/"><img alt="w" class="wp-image-2110" decoding="async" height="74" loading="lazy" src="../images/263b74ec_century_intelligence_logo.png" width="286"/></a></div></div></div></div><div class="widget widget_block widget_text" data-area="qodef-footer-top-area-column-1" id="block-30"><p class="has-text-color" style="color:#85979b">Make your idea into reality with Century Intelligence</p></div> </div>
+<div class="widget widget_block" data-area="qodef-footer-top-area-column-1" id="block-25"><div class="wp-block-qi-blocks-single-image qodef-block-container qodef-widget-block-f2fa37e2"><div class="qi-block-single-image qodef-block qodef-m"><div class="qodef-m-image"><a href="/"><img alt="Century Intelligence" class="wp-image-2110" decoding="async" height="74" loading="lazy" src="../images/century_intelligence_logo_white.svg" width="286"/></a></div></div></div></div><div class="widget widget_block widget_text" data-area="qodef-footer-top-area-column-1" id="block-30"><p class="has-text-color" style="color:#85979b">Make your idea into reality with Century Intelligence</p></div> </div>
 <div class="qodef-grid-item">
 <div class="widget widget_block" data-area="qodef-footer-top-area-column-2" id="block-70"><div class="wp-block-group is-content-justification-left"><div class="wp-block-group__inner-container is-layout-constrained wp-container-core-group-is-layout-063b2483 wp-block-group-is-layout-constrained"><div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex"><div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"><div class="widget widget_leroux_core_title_widget"> <h4 class="qodef-widget-title" style="margin-bottom: 30px">
                                 Professional &amp; modern, a theme designed to help your business stand out from the rest.                              </h4>
@@ -833,17 +834,34 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f2d89dacbd18142',t:'MTc3NzI4OTg4MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
 <script>
-// Show sticky header on scroll
+// Show sticky header on scroll down, hide on scroll up
 document.addEventListener('DOMContentLoaded', function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
-    
+    var lastScrollTop = 0;
+    var scrollThreshold = 100;
+
     if (stickyHeader) {
         window.addEventListener('scroll', function() {
-            if (window.scrollY > 100) {
-                stickyHeader.classList.add('show');
+            var currentScroll = window.scrollY;
+
+            if (currentScroll > scrollThreshold) {
+                // Scrolling down - show header
+                if (currentScroll > lastScrollTop) {
+                    stickyHeader.classList.add('show');
+                    stickyHeader.classList.remove('hide');
+                }
+                // Scrolling up - hide header
+                else if (currentScroll < lastScrollTop) {
+                    stickyHeader.classList.remove('show');
+                    stickyHeader.classList.add('hide');
+                }
             } else {
+                // Near top - hide header
                 stickyHeader.classList.remove('show');
+                stickyHeader.classList.add('hide');
             }
+
+            lastScrollTop = currentScroll;
         });
     }
 });
