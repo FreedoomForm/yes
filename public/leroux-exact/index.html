@@ -1447,13 +1447,13 @@ document.addEventListener('DOMContentLoaded', function() { var savedLang = local
 // Show sticky header on scroll
 (function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
-    var scrollTriggered = false;
 
     if (stickyHeader) {
         window.addEventListener('scroll', function() {
-            if (window.scrollY > 100 && !scrollTriggered) {
+            if (window.scrollY > 100) {
                 stickyHeader.classList.add('show');
-                scrollTriggered = true;
+            } else {
+                stickyHeader.classList.remove('show');
             }
         });
     }
