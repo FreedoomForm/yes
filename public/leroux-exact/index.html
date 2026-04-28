@@ -83,9 +83,12 @@ body  .qodef-widget-block-978b67f7 .qi-block-section-title .qodef-m-title{color:
 <style id='leroux-style-inline-css' type='text/css'>
 #qodef-page-outer { margin-top: 0px;}@media only screen и (max-width: 1024px) { #qodef-page-outer { margin-top: -70px;}}#qodef-page-footer-top-area-inner { padding-bottom: 10px;}#qodef-page-footer-bottom-area-inner { padding-top: 0px;padding-bottom: 90px;}#qodef-page-inner { padding: 0px 0px 0px 0px;}@media only screen и (max-width: 1024px) { #qodef-page-inner { padding: 0px 0px 0px 0px;}}.qodef-header-sticky .qodef-header-sticky-inner { padding-left: 42px;padding-right: 42px;}#qodef-top-area { background-color: rgba(0,0,0,0.2);}#qodef-top-area-inner { height: 40px;padding-left: 42px;padding-right: 42px;}#qodef-page-header .qodef-header-logo-link { height: 23px;}#qodef-page-mobile-header .qodef-mobile-header-logo-link { height: 23px;}.qodef-search-cover-form { top: -40px;height: calc( 100% + 40px );}.qodef-page-title { background-color: #20282d;}.qodef-page-title .qodef-m-content { padding-top: 124px;}.qodef-page-title .qodef-m-title { color: #ffffff;}@media only screen и (max-width: 1024px) { .qodef-page-title .qodef-m-content { padding-top: 70px;}}.qodef-header--standard #qodef-page-header { background-color: #ffffff;}.qodef-header--standard #qodef-page-header-inner { padding-left: 42px;padding-right: 42px;}.qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(0,0,0,0.1);border-bottom-width: 1px;}#qodef-page-header { height: 0 !important; min-height: 0 !important; overflow: visible !important; }
 #qodef-page-header-inner { display: none !important; }
-.qodef-header-sticky { display: none !important; top: 40px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 100 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; }
-header#qodef-page-header .qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; }
-.qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; }
+.qodef-header-sticky { display: none !important; top: 0 !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(-100%); transition: transform 0.3s ease !important; }
+.qodef-header-sticky .qodef-header-sticky-inner { padding: 20px 42px !important; }
+.qodef-header-sticky .qodef-header-logo-link img { height: 35px !important; width: auto !important; }
+header#qodef-page-header .qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; transform: translateY(0) !important; }
+.qodef-header-sticky.show { display: block !important; visibility: visible !important; opacity: 1 !important; transform: translateY(0) !important; }
+.qodef-header-sticky.hide { transform: translateY(-100%) !important; }
 body.qodef-header--sticky-display .qodef-header-sticky { display: none !important; }
 body.qodef-header--sticky-display .qodef-header-sticky.show { display: block !important; }
 #qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; }
@@ -1006,7 +1009,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-2ecf9c9 elementor-widget elementor-widget-leroux_core_counter" data-id="2ecf9c9" data-element_type="widget" data-widget_type="leroux_core_counter.default">
                                 <div class="elementor-widget-container">
-                        <div class="qodef-shortcode qodef-m  qodef-counter qodef-counter-540 qodef-laвыt--simple qodef-aligned--left" data-start-digit="4" data-end-digit="850" data-step-digit="12" data-step-delay="50" data-digit-label="K+">
+                        <div class="qodef-shortcode qodef-m  qodef-counter qodef-counter-540 qodef-laвыt--simple qodef-aligned--left" data-start-digit="0" data-end-digit="85" data-step-digit="1" data-step-delay="50" data-digit-label="+">
                 <div class="qodef-m-digit-wrapper">
                 <span class="qodef-m-digit" style="font-size: 150px;color: #FFFFFF54"></span>
         </div>
@@ -1448,17 +1451,34 @@ function switchLanguage(lang) {
 document.addEventListener('DOMContentLoaded', function() { var savedLang = localStorage.getItem('preferredLanguage') || 'ru'; var langSelect = document.getElementById('lang-select'); if (langSelect) langSelect.value = savedLang; });
 </script>
 <script>
-// Show sticky header on scroll
+// Show sticky header on scroll down, hide on scroll up
 document.addEventListener('DOMContentLoaded', function() {
     var stickyHeader = document.querySelector('.qodef-header-sticky');
-    
+    var lastScrollTop = 0;
+    var scrollThreshold = 100;
+
     if (stickyHeader) {
         window.addEventListener('scroll', function() {
-            if (window.scrollY > 100) {
-                stickyHeader.classList.add('show');
+            var currentScroll = window.scrollY;
+
+            if (currentScroll > scrollThreshold) {
+                // Scrolling down - show header
+                if (currentScroll > lastScrollTop) {
+                    stickyHeader.classList.add('show');
+                    stickyHeader.classList.remove('hide');
+                }
+                // Scrolling up - hide header
+                else if (currentScroll < lastScrollTop) {
+                    stickyHeader.classList.remove('show');
+                    stickyHeader.classList.add('hide');
+                }
             } else {
+                // Near top - hide header
                 stickyHeader.classList.remove('show');
+                stickyHeader.classList.add('hide');
             }
+
+            lastScrollTop = currentScroll;
         });
     }
 });
