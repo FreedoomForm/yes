@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export default function Home() {
   useEffect(() => {
     // Redirect directly to the main HTML page
-    window.location.href = '/leroux-exact/index.html'
+    window.location.href = '/index.html'
   }, [])
 
   return (
