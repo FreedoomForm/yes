@@ -369,7 +369,7 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 <header class="qodef-header-sticky">
     <div class="qodef-header-sticky-inner">
         <a class="qodef-header-logo-link" href="/">
-            <img width="200" height="43" src="/images/logo-dark.png" alt="Century Intelligence"/>
+            <img width="200" height="43" src="/images/century_intelligence_logo.png" alt="Century Intelligence"/>
         </a>
         <nav class="qodef-header-navigation">
             <ul class="menu">
@@ -388,7 +388,7 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 <header id="qodef-page-mobile-header">
     <div id="qodef-page-mobile-header-inner">
         <a class="qodef-mobile-header-logo-link" href="/">
-            <img height="35" src="/images/logo-dark.png" alt="Century Intelligence"/>
+            <img height="35" src="/images/century_intelligence_logo.png" alt="Century Intelligence"/>
         </a>
         <a href="/pages/contact_us.html" style="background: #19272b; color: #ffffff; padding: 8px 15px; border-radius: 5px; font-family: 'DM Sans', sans-serif; font-size: 13px; text-decoration: none;">Контакты</a>
     </div>
@@ -506,7 +506,7 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
         <div id="qodef-page-footer-top-area-inner" class="qodef-content-grid">
             <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; padding: 40px 0;">
                 <div>
-                    <img src="/images/logo-dark.png" alt="Century Intelligence" style="height: 40px; margin-bottom: 20px;">
+                    <img src="/images/century_intelligence_logo.png" alt="Century Intelligence" style="height: 40px; margin-bottom: 20px;">
                     <p style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #666; max-width: 300px;">Международный консорциум искусственного интеллекта и высокотехнологичных решений</p>
                 </div>
                 <div>
@@ -540,34 +540,198 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
     <div class="pdf-modal-content">
         <div class="pdf-modal-header">
             <h3 id="pdfModalTitle">Просмотр документа</h3>
-            <button class="pdf-modal-close" onclick="closePdfModal()">
-                <svg viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
-            </button>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="pdf-controls" style="display: flex; align-items: center; gap: 10px;">
+                    <button id="prevPage" class="pdf-nav-btn" title="Предыдущая страница">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+                    </button>
+                    <span id="pageInfo" style="color: #fff; font-family: 'DM Sans', sans-serif; font-size: 14px;">Страница: 1 / 1</span>
+                    <button id="nextPage" class="pdf-nav-btn" title="Следующая страница">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </button>
+                    <button id="zoomIn" class="pdf-nav-btn" title="Увеличить">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                    </button>
+                    <button id="zoomOut" class="pdf-nav-btn" title="Уменьшить">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13H5v-2h14v2z"/></svg>
+                    </button>
+                </div>
+                <button class="pdf-modal-close" onclick="closePdfModal()">
+                    <svg viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/></svg>
+                </button>
+            </div>
         </div>
-        <div class="pdf-modal-body">
-            <iframe id="pdfFrame" src=""></iframe>
+        <div class="pdf-modal-body" id="pdfContainer">
+            <canvas id="pdfCanvas"></canvas>
+        </div>
+        <div class="pdf-loading" id="pdfLoading" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div style="text-align: center; color: #19272b;">
+                <div class="spinner" style="width: 50px; height: 50px; border: 4px solid #f3f3f3; border-top: 4px solid #19272b; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 15px;"></div>
+                <p style="font-family: 'DM Sans', sans-serif;">Загрузка документа...</p>
+            </div>
         </div>
     </div>
 </div>
 
+<style>
+.pdf-nav-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    color: #ffffff;
+}
+.pdf-nav-btn:hover {
+    background: rgba(255,255,255,0.3);
+}
+.pdf-nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+#pdfContainer {
+    background: #525659;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    padding: 20px;
+}
+#pdfCanvas {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+
+<!-- PDF.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
+// Initialize PDF.js worker
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+let pdfDoc = null;
+let pageNum = 1;
+let pageRendering = false;
+let pageNumPending = null;
+let scale = 1.5;
+
+const canvas = document.getElementById('pdfCanvas');
+const ctx = canvas.getContext('2d');
+
+function renderPage(num) {
+    pageRendering = true;
+    
+    pdfDoc.getPage(num).then(function(page) {
+        const viewport = page.getViewport({ scale: scale });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        const renderContext = {
+            canvasContext: ctx,
+            viewport: viewport
+        };
+        
+        const renderTask = page.render(renderContext);
+
+        renderTask.promise.then(function() {
+            pageRendering = false;
+            if (pageNumPending !== null) {
+                renderPage(pageNumPending);
+                pageNumPending = null;
+            }
+        });
+    });
+
+    document.getElementById('pageInfo').textContent = 'Страница: ' + num + ' / ' + pdfDoc.numPages;
+    document.getElementById('prevPage').disabled = num <= 1;
+    document.getElementById('nextPage').disabled = num >= pdfDoc.numPages;
+}
+
+function queueRenderPage(num) {
+    if (pageRendering) {
+        pageNumPending = num;
+    } else {
+        renderPage(num);
+    }
+}
+
+function onPrevPage() {
+    if (pdfDoc === null || pageNum <= 1) return;
+    pageNum--;
+    queueRenderPage(pageNum);
+}
+
+function onNextPage() {
+    if (pdfDoc === null || pageNum >= pdfDoc.numPages) return;
+    pageNum++;
+    queueRenderPage(pageNum);
+}
+
+function onZoomIn() {
+    if (scale >= 3) return;
+    scale += 0.25;
+    queueRenderPage(pageNum);
+}
+
+function onZoomOut() {
+    if (scale <= 0.5) return;
+    scale -= 0.25;
+    queueRenderPage(pageNum);
+}
+
+document.getElementById('prevPage').addEventListener('click', onPrevPage);
+document.getElementById('nextPage').addEventListener('click', onNextPage);
+document.getElementById('zoomIn').addEventListener('click', onZoomIn);
+document.getElementById('zoomOut').addEventListener('click', onZoomOut);
+
 function openPdfModal(pdfUrl, title) {
     document.getElementById('pdfModal').classList.add('active');
     document.getElementById('pdfModalTitle').textContent = title;
-    document.getElementById('pdfFrame').src = pdfUrl;
+    document.getElementById('pdfLoading').style.display = 'block';
     document.body.style.overflow = 'hidden';
+    
+    // Reset state
+    pageNum = 1;
+    scale = 1.5;
+    
+    // Load PDF
+    const loadingTask = pdfjsLib.getDocument(pdfUrl);
+    
+    loadingTask.promise.then(function(pdf) {
+        pdfDoc = pdf;
+        document.getElementById('pdfLoading').style.display = 'none';
+        renderPage(pageNum);
+    }).catch(function(error) {
+        console.error('Error loading PDF:', error);
+        document.getElementById('pdfLoading').innerHTML = '<div style="text-align: center; color: #c0392b;"><p style="font-family: \'DM Sans\', sans-serif;">Ошибка загрузки документа.<br>Попробуйте скачать файл.</p></div>';
+    });
 }
 
 function closePdfModal() {
     document.getElementById('pdfModal').classList.remove('active');
-    document.getElementById('pdfFrame').src = '';
     document.body.style.overflow = 'auto';
+    pdfDoc = null;
+    pageNum = 1;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 // Close modal on escape key
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         closePdfModal();
+    }
+    // Arrow keys for navigation
+    if (document.getElementById('pdfModal').classList.contains('active')) {
+        if (e.key === 'ArrowLeft') onPrevPage();
+        if (e.key === 'ArrowRight') onNextPage();
     }
 });
 
