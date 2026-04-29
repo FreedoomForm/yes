@@ -53,10 +53,17 @@
 .qodef-header-sticky .qodef-header-navigation { flex: 1 !important; display: flex !important; justify-content: center !important; font-size: 24px !important; }
 .qodef-header-sticky.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
 @media only screen and (max-width: 1024px) {
-    #qodef-page-mobile-header { display: block !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 9999 !important; background-color: #ffffff !important; padding: 12px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; }
+    /* Hide desktop header elements on mobile */
+    #qodef-top-area { display: none !important; }
+    .qodef-header-sticky { display: none !important; }
+    
+    /* Show mobile header */
+    #qodef-page-mobile-header { display: block !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 9999 !important; background-color: #ffffff !important; padding: 12px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; transform: translateY(0) !important; }
+    #qodef-page-mobile-header.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
     #qodef-page-mobile-header-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; }
     .qodef-mobile-header-logo-link img { height: 35px !important; width: auto !important; }
-    #qodef-page-outer { margin-top: 100px !important; }
+    .qodef-mobile-header-opener .qodef-m-line { background-color: #19272b !important; }
+    #qodef-page-outer { margin-top: 60px !important; }
 }
 body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
 body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
@@ -102,6 +109,18 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
     background: linear-gradient(135deg, #19272b 0%, #2d4a50 100%);
     padding: 140px 0 80px;
     margin-top: -40px;
+}
+@media only screen and (max-width: 1024px) {
+    .compliance-hero {
+        padding: 100px 0 60px;
+        margin-top: 0;
+    }
+    .compliance-hero h1 {
+        font-size: 32px !important;
+    }
+    .compliance-hero p {
+        font-size: 16px !important;
+    }
 }
 .compliance-hero h1 {
     font-family: 'DM Sans', sans-serif;
@@ -812,6 +831,31 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileNav.classList.toggle('active');
         });
     }
+    
+    // Mobile header hide/show on scroll
+    const mobileHeader = document.querySelector('#qodef-page-mobile-header');
+    let lastScrollTop = 0;
+    const scrollThreshold = 100;
+    
+    window.addEventListener('scroll', function() {
+        const currentScroll = window.scrollY;
+        const isMobile = window.innerWidth <= 1024;
+        
+        if (currentScroll > scrollThreshold && isMobile) {
+            if (currentScroll > lastScrollTop) {
+                // Scrolling down
+                if (mobileHeader) mobileHeader.classList.add('hide');
+            } else if (currentScroll < lastScrollTop) {
+                // Scrolling up
+                if (mobileHeader) mobileHeader.classList.remove('hide');
+            }
+        } else {
+            // Near top - always show header
+            if (mobileHeader) mobileHeader.classList.remove('hide');
+        }
+        
+        lastScrollTop = currentScroll;
+    });
 });
 </script>
 
