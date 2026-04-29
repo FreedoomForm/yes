@@ -465,5 +465,133 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 //# sourceURL=https://century.uz/wp-includes/js/wp-emoji-loader.min.js
 /* ]]> */
 </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f2d8943ea9b9fe0',t:'MTc3NzI4OTg1Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f2d8943ea9b9fe0',t:'MTc3NzI4OTg1Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script>
+    // Hide CF7 spinner permanently
+    var cf7Style = document.createElement('style');
+    cf7Style.innerHTML = '.wpcf7-spinner { display: none !important; } form.submitting .wpcf7-spinner { display: none !important; } .wpcf7-response-output { display: none !important; }';
+    document.head.appendChild(cf7Style);
+
+    // Contact form submission
+    var contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var name = document.getElementById('contact-name');
+            var phone = document.getElementById('contact-phone');
+            var message = document.getElementById('contact-message');
+            var statusDiv = document.getElementById('contact-status');
+            
+            if (!name || !phone || !message || !statusDiv) return;
+            
+            name = name.value.trim();
+            phone = phone.value.trim();
+            message = message.value.trim();
+            
+            if (!name || !phone || !message) {
+                statusDiv.style.display = 'block';
+                statusDiv.style.color = '#e74c3c';
+                statusDiv.innerHTML = 'Пожалуйста, заполните все поля';
+                return;
+            }
+            
+            var submitBtn = contactForm.querySelector('button[type="submit"]');
+            var originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<span class="qodef-m-text">Отправка...</span>';
+            submitBtn.disabled = true;
+            
+            fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: name, phone: phone, message: message })
+            })
+            .then(function(response) { return response.json(); })
+            .then(function(data) {
+                statusDiv.style.display = 'block';
+                if (data.success) {
+                    statusDiv.style.color = '#27ae60';
+                    statusDiv.innerHTML = 'Отправлено!';
+                    document.getElementById('contact-name').value = '';
+                    document.getElementById('contact-phone').value = '';
+                    document.getElementById('contact-message').value = '';
+                    setTimeout(function() { statusDiv.style.display = 'none'; }, 2000);
+                } else {
+                    statusDiv.style.color = '#e74c3c';
+                    statusDiv.innerHTML = data.error || 'Ошибка';
+                }
+            })
+            .catch(function() {
+                statusDiv.style.display = 'block';
+                statusDiv.style.color = '#e74c3c';
+                statusDiv.innerHTML = 'Ошибка соединения';
+            })
+            .finally(function() {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            });
+        });
+    }
+
+    // Footer contact form submission
+    var footerForm = document.getElementById('footer-contact-form');
+    if (footerForm) {
+        footerForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var name = document.getElementById('footer-name');
+            var phone = document.getElementById('footer-phone');
+            var message = document.getElementById('footer-message');
+            var statusDiv = document.getElementById('footer-status');
+            
+            if (!name || !phone || !message || !statusDiv) return;
+            
+            name = name.value.trim();
+            phone = phone.value.trim();
+            message = message.value.trim();
+            
+            if (!name || !phone || !message) {
+                statusDiv.style.display = 'block';
+                statusDiv.style.color = '#e74c3c';
+                statusDiv.innerHTML = 'Пожалуйста, заполните все поля';
+                return;
+            }
+            
+            var submitBtn = footerForm.querySelector('button[type="submit"]');
+            var originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<span class="qodef-m-text">Отправка...</span>';
+            submitBtn.disabled = true;
+            
+            fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: name, phone: phone, message: message })
+            })
+            .then(function(response) { return response.json(); })
+            .then(function(data) {
+                statusDiv.style.display = 'block';
+                if (data.success) {
+                    statusDiv.style.color = '#27ae60';
+                    statusDiv.innerHTML = 'Отправлено!';
+                    document.getElementById('footer-name').value = '';
+                    document.getElementById('footer-phone').value = '';
+                    document.getElementById('footer-message').value = '';
+                    setTimeout(function() { statusDiv.style.display = 'none'; }, 2000);
+                } else {
+                    statusDiv.style.color = '#e74c3c';
+                    statusDiv.innerHTML = data.error || 'Ошибка';
+                }
+            })
+            .catch(function() {
+                statusDiv.style.display = 'block';
+                statusDiv.style.color = '#e74c3c';
+                statusDiv.innerHTML = 'Ошибка соединения';
+            })
+            .finally(function() {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            });
+        });
+    }
+</script>
+</body>
 </html>

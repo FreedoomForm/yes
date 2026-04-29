@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
+import fs from 'fs';
+import path from 'path';
 
 const TELEGRAM_BOT_TOKEN = "8345021383:AAFhAMfb-TDK3dc4nGsagl-IyXqW9wPjHMo";
+const CHAT_IDS_FILE = path.join(process.cwd(), 'chat_ids.json');
 
 interface TelegramUpdate {
   update_id: number;
@@ -24,7 +27,30 @@ interface FormData {
   message: string;
 }
 
-async function getTelegramChatIds(): Promise<number[]> {
+// Read saved chat IDs from file
+function getSavedChatIds(): number[] {
+  try {
+    if (fs.existsSync(CHAT_IDS_FILE)) {
+      const data = fs.readFileSync(CHAT_IDS_FILE, 'utf-8');
+      return JSON.parse(data);
+    }
+  } catch (error) {
+    console.error("Error reading chat IDs file:", error);
+  }
+  return [];
+}
+
+// Save chat IDs to file
+function saveChatIds(chatIds: number[]): void {
+  try {
+    fs.writeFileSync(CHAT_IDS_FILE, JSON.stringify(chatIds, null, 2));
+  } catch (error) {
+    console.error("Error saving chat IDs file:", error);
+  }
+}
+
+// Get chat IDs from Telegram API and save them
+async function fetchAndSaveChatIds(): Promise<number[]> {
   try {
     const response = await fetch(
       `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`,
@@ -40,22 +66,32 @@ async function getTelegramChatIds(): Promise<number[]> {
 
     if (!data.ok) {
       console.error("Telegram API error:", data);
-      return [];
+      return getSavedChatIds();
     }
 
     const updates: TelegramUpdate[] = data.result || [];
-    const chatIds = new Set<number>();
+    const newChatIds = new Set<number>();
 
     updates.forEach((update) => {
       if (update.message?.chat?.id) {
-        chatIds.add(update.message.chat.id);
+        newChatIds.add(update.message.chat.id);
       }
     });
 
-    return Array.from(chatIds);
+    // Merge with saved chat IDs
+    const savedIds = getSavedChatIds();
+    const allIds = new Set([...savedIds, ...Array.from(newChatIds)]);
+    const finalIds = Array.from(allIds);
+
+    // Save if we have new IDs
+    if (finalIds.length > 0) {
+      saveChatIds(finalIds);
+    }
+
+    return finalIds;
   } catch (error) {
     console.error("Error fetching chat IDs:", error);
-    return [];
+    return getSavedChatIds();
   }
 }
 
@@ -100,12 +136,12 @@ export async function POST(request: Request) {
       );
     }
 
-    // Get all chat IDs of users who have started the bot
-    const chatIds = await getTelegramChatIds();
+    // Get chat IDs (from API + saved)
+    const chatIds = await fetchAndSaveChatIds();
 
     if (chatIds.length === 0) {
       return NextResponse.json(
-        { error: "Нет пользователей, запустивших бота" },
+        { error: "Сначала отправьте /start боту в Telegram" },
         { status: 400 }
       );
     }
@@ -126,7 +162,6 @@ ${message}
     );
 
     const successCount = results.filter(Boolean).length;
-    const failCount = results.length - successCount;
 
     if (successCount > 0) {
       return NextResponse.json({
@@ -148,7 +183,10 @@ ${message}
 }
 
 export async function GET() {
+  // Refresh chat IDs when GET is called
+  const chatIds = await fetchAndSaveChatIds();
   return NextResponse.json({
     message: "Contact API endpoint. Use POST to submit form data.",
+    chatIdsCount: chatIds.length,
   });
 }
