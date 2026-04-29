@@ -14,18 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leroux - Business Consulting Template",
-  description: "Professional business consulting template with 27 unique pages. From strategy to delivery, we help your business succeed.",
-  keywords: ["Business", "Consulting", "Strategy", "Leroux", "Template"],
-  authors: [{ name: "Qode Interactive" }],
+  title: "Century Intelligence - ИИ и энергетические решения",
+  description: "Ведущий провайдер AI решений и энергосистем для государственного сектора Узбекистана",
+  keywords: ["AI", "Искусственный интеллект", "Энергосистемы", "Узбекистан", "Государственный сектор"],
+  authors: [{ name: "Century Intelligence" }],
   icons: {
-    icon: "/logo.svg",
+    icon: "/images/century_intelligence_logo.svg",
   },
   openGraph: {
-    title: "Leroux - Business Consulting",
-    description: "Professional business consulting template",
-    url: "https://leroux.qodeinteractive.com",
-    siteName: "Leroux",
+    title: "Century Intelligence",
+    description: "ИИ и энергетические решения для государственного сектора",
     type: "website",
   },
 };

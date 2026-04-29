@@ -20,7 +20,7 @@ interface TelegramUpdate {
 
 interface FormData {
   name: string;
-  email: string;
+  phone: string;
   message: string;
 }
 
@@ -91,9 +91,9 @@ export async function POST(request: Request) {
   try {
     const body: FormData = await request.json();
 
-    const { name, email, message } = body;
+    const { name, phone, message } = body;
 
-    if (!name || !email || !message) {
+    if (!name || !phone || !message) {
       return NextResponse.json(
         { error: "Все поля обязательны для заполнения" },
         { status: 400 }
@@ -115,7 +115,7 @@ export async function POST(request: Request) {
 <b>Новое сообщение с сайта Century Intelligence</b>
 
 <b>Имя:</b> ${name}
-<b>Email:</b> ${email}
+<b>Телефон:</b> ${phone}
 <b>Сообщение:</b>
 ${message}
     `.trim();
@@ -131,7 +131,6 @@ ${message}
     if (successCount > 0) {
       return NextResponse.json({
         success: true,
-        message: `Сообщение отправлено ${successCount} получателю(ям)${failCount > 0 ? `, не удалось отправить ${failCount}` : ""}`,
       });
     } else {
       return NextResponse.json(
