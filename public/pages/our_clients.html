@@ -116,15 +116,6 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 #qodef-loading-screen .loader-inner { position: absolute; width: 40%; height: 40%; top: 30%; left: 30%; background: #fff; border-radius: 50%; animation: pulse 2s ease-in-out infinite; animation-delay: 1s; }
 @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 1; } }
 
-/* Sticky Header Menu Hover Animation */
-.qodef-header-sticky .qodef-header-navigation .menu-item a { position: relative; overflow: hidden; }
-.qodef-header-sticky .qodef-header-navigation .menu-item a .qodef-menu-item-text { position: relative; display: inline-block; transition: transform 0.4s cubic-bezier(0.51, 0.5, 0.07, 0.99), color 0.3s ease; }
-.qodef-header-sticky .qodef-header-navigation .menu-item a::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #2d5a3d, #3d7a5d); transform: scaleX(0); transform-origin: right; transition: transform 0.4s cubic-bezier(0.51, 0.5, 0.07, 0.99); }
-.qodef-header-sticky .qodef-header-navigation .menu-item a:hover .qodef-menu-item-text { transform: translateY(-2px); color: #2d5a3d; }
-.qodef-header-sticky .qodef-header-navigation .menu-item a:hover::before { transform: scaleX(1); transform-origin: left; }
-.qodef-header-sticky .qodef-header-navigation .menu-item.current-menu-item a .qodef-menu-item-text { color: #2d5a3d; }
-.qodef-header-sticky .qodef-header-navigation .menu-item.current-menu-item a::before { transform: scaleX(1); }
-
 /*# sourceURL=leroux-style-inline-css */
 </style>
 <link href="/css/da238135_elementor.min.css" id="leroux-core-elementor-css" media="all" rel="stylesheet" type="text/css"/>
