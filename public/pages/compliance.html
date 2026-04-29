@@ -65,6 +65,38 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 #qodef-page-outer { margin-top: 40px !important; }
 #qodef-top-area:after { content: ''; position: absolute; bottom: -20px; left: 0; right: 0; height: 20px; background-color: #19272b !important; z-index: -1; }
 
+/* Top area widgets */
+#qodef-top-area-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; height: 40px !important; padding-left: 42px !important; padding-right: 42px !important; }
+.qodef-widget-holder { display: flex !important; align-items: center !important; }
+.qodef-widget-holder.qodef--left, .qodef-widget-holder.qodef--right { display: flex !important; align-items: center !important; }
+.qodef-widget-holder p { margin: 0 !important; }
+.qodef-icon-holder { display: inline-flex !important; align-items: center !important; vertical-align: middle !important; }
+.qodef-icon { color: #ffffff !important; }
+
+/* Header navigation */
+.qodef-header-navigation .menu { display: flex !important; list-style: none !important; padding: 0 !important; margin: 0 !important; gap: 30px !important; }
+.qodef-header-navigation .menu-item a { font-family: 'DM Sans', sans-serif !important; font-size: 15px !important; color: #19272b !important; text-decoration: none !important; transition: color 0.3s !important; }
+.qodef-header-navigation .menu-item a:hover { color: #555 !important; }
+.qodef-header-navigation .menu-item.current-menu-item a { font-weight: 600 !important; }
+.qodef-menu-item-text { font-family: 'DM Sans', sans-serif !important; }
+
+/* Mobile header navigation */
+.qodef-mobile-header-navigation { display: none !important; background-color: #ffffff !important; padding: 20px !important; }
+.qodef-mobile-header-navigation.active { display: block !important; }
+.qodef-mobile-header-navigation ul { list-style: none !important; padding: 0 !important; margin: 0 !important; }
+.qodef-mobile-header-navigation li { padding: 10px 0 !important; border-bottom: 1px solid #eee !important; }
+.qodef-mobile-header-navigation a { color: #19272b !important; text-decoration: none !important; font-family: 'DM Sans', sans-serif !important; font-size: 16px !important; }
+
+/* Mobile menu opener */
+.qodef-mobile-header-opener { cursor: pointer !important; }
+.qodef-m-lines { display: block !important; width: 25px !important; height: 20px !important; position: relative !important; }
+.qodef-m-line { position: absolute !important; left: 0 !important; width: 100% !important; height: 2px !important; background-color: #19272b !important; transition: all 0.3s !important; }
+.qodef-m-line.qodef--1 { top: 0 !important; }
+.qodef-m-line.qodef--2 { top: 9px !important; }
+.qodef-m-icon.qodef--close { display: none !important; }
+.qodef-mobile-header-opener.active .qodef-m-icon.qodef--open { display: none !important; }
+.qodef-mobile-header-opener.active .qodef-m-icon.qodef--close { display: block !important; }
+
 /* Compliance page styles */
 .compliance-hero {
     background: linear-gradient(135deg, #19272b 0%, #2d4a50 100%);
@@ -349,49 +381,76 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 <body class="qodef-header--sticky-display">
 
 <!-- Top Bar -->
-<div id="qodef-top-area">
-    <div id="qodef-top-area-inner" class="qodef-content-grid">
-        <div class="qodef-top-area-left">
-            <span style="color: #ffffff; font-family: 'DM Sans', sans-serif; font-size: 14px;">
-                <a href="tel:+998712000000" style="color: #ffffff; margin-right: 20px;">+998 71 200 00 00</a>
-                <a href="mailto:info@centuryintelligence.com" style="color: #ffffff;">info@centuryintelligence.com</a>
+<div id="qodef-top-area" class="qodef-background--blur">
+    <div id="qodef-top-area-inner">
+        <div class="qodef-widget-holder qodef--left">
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-ionicons ion-md-cube qodef-icon qodef-e" style="font-size: 14px"></span>
             </span>
+            <p style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff; display: inline;">Century Intelligence — для всех <a href="/pages/our_services.html"><u>ваших бизнес</u></a> целей</p>
         </div>
-        <div class="qodef-top-area-right">
-            <span style="color: #ffffff; font-family: 'DM Sans', sans-serif; font-size: 14px;">
-                Ташкент, Узбекистан
+        <div class="qodef-widget-holder qodef--right">
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-ionicons ion-ios-globe qodef-icon qodef-e" style="font-size: 15px"></span>
             </span>
+            <p style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff; display: inline;">Ташкент, Узбекистан</p>
+            <span style="margin: 0 10px;"></span>
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="top: -1px; margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-elegant-icons icon_mail_alt qodef-icon qodef-e" style="font-size: 14px"></span>
+            </span>
+            <a style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff;" href="mailto:info@centuryintelligence.com">info@centuryintelligence.com</a>
+            <span style="margin: 0 10px;"></span>
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="top: -1px; margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-elegant-icons icon_phone" style="font-size: 14px"></span>
+            </span>
+            <a style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff;" href="tel:+998990008991">+998 99 000 89 91</a>
         </div>
     </div>
 </div>
 
 <!-- Sticky Header -->
-<header class="qodef-header-sticky">
+<div class="qodef-header-sticky qodef-custom-header-layout qodef-appearance--down">
     <div class="qodef-header-sticky-inner">
-        <a class="qodef-header-logo-link" href="/">
-            <img width="200" height="43" src="/images/century_intelligence_logo.png" alt="Century Intelligence"/>
+        <a itemprop="url" class="qodef-header-logo-link qodef-height--set qodef-source--image" href="/home.html" rel="home">
+            <img loading="lazy" width="174" height="46" src="/images/century_intelligence_logo.svg" class="qodef-header-logo-image qodef--main" alt="Century Intelligence"/>
         </a>
-        <nav class="qodef-header-navigation">
-            <ul class="menu">
-                <li><a href="/" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #19272b;">Главная</a></li>
-                <li><a href="/pages/about_us.html" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #19272b;">О нас</a></li>
-                <li><a href="/pages/our_services.html" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #19272b;">Услуги</a></li>
-                <li><a href="/pages/compliance.html" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #19272b; font-weight: 600;">Комплаенс</a></li>
-                <li><a href="/pages/contact_us.html" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #19272b;">Контакты</a></li>
+        <nav class="qodef-header-navigation" role="navigation" aria-label="Главное меню">
+            <ul id="menu-main-menu-2" class="menu">
+                <li class="menu-item"><a href="/home.html"><span class="qodef-menu-item-text">Главная</span></a></li>
+                <li class="menu-item"><a href="/pages/our_services.html"><span class="qodef-menu-item-text">Наши услуги</span></a></li>
+                <li class="menu-item"><a href="/pages/our_clients.html"><span class="qodef-menu-item-text">Наши клиенты</span></a></li>
+                <li class="menu-item current-menu-item"><a href="/pages/compliance.html"><span class="qodef-menu-item-text">Комплаенс</span></a></li>
+                <li class="menu-item"><a href="/pages/contact_us.html"><span class="qodef-menu-item-text">Контакты</span></a></li>
             </ul>
         </nav>
-        <a href="/pages/contact_us.html" class="qodef-button" style="background: #19272b; color: #ffffff; padding: 12px 25px; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 14px; text-decoration: none;">Связаться</a>
+        <div class="qodef-widget-holder qodef--one"></div>
     </div>
-</header>
+</div>
 
 <!-- Mobile Header -->
-<header id="qodef-page-mobile-header">
-    <div id="qodef-page-mobile-header-inner">
-        <a class="qodef-mobile-header-logo-link" href="/">
-            <img height="35" src="/images/century_intelligence_logo.png" alt="Century Intelligence"/>
+<header id="qodef-page-mobile-header" role="banner">
+    <div id="qodef-page-mobile-header-inner" class="">
+        <a itemprop="url" class="qodef-mobile-header-logo-link qodef-height--set qodef-source--image" href="/" rel="home">
+            <img loading="lazy" width="174" height="46" src="/images/century_intelligence_logo.svg" class="qodef-header-logo-image qodef--main" alt="Century Intelligence"/>
         </a>
-        <a href="/pages/contact_us.html" style="background: #19272b; color: #ffffff; padding: 8px 15px; border-radius: 5px; font-family: 'DM Sans', sans-serif; font-size: 13px; text-decoration: none;">Контакты</a>
+        <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener">
+            <span class="qodef-m-icon qodef--open">
+                <span class="qodef-m-lines"><span class="qodef-m-line qodef--1"></span><span class="qodef-m-line qodef--2"></span></span>
+            </span>
+            <span class="qodef-m-icon qodef--close">
+                <span class="qodef-m-lines"><span class="qodef-m-line qodef--1"></span><span class="qodef-m-line qodef--2"></span></span>
+            </span>
+        </a>
     </div>
+    <nav class="qodef-mobile-header-navigation" role="navigation" aria-label="Мобильное меню">
+        <ul id="menu-main-menu-4" class="">
+            <li class="menu-item"><a href="/home.html"><span class="qodef-menu-item-text">Главная</span></a></li>
+            <li class="menu-item"><a href="/pages/our_services.html"><span class="qodef-menu-item-text">Наши услуги</span></a></li>
+            <li class="menu-item"><a href="/pages/our_clients.html"><span class="qodef-menu-item-text">Наши клиенты</span></a></li>
+            <li class="menu-item current-menu-item"><a href="/pages/compliance.html"><span class="qodef-menu-item-text">Комплаенс</span></a></li>
+            <li class="menu-item"><a href="/pages/contact_us.html"><span class="qodef-menu-item-text">Контакты</span></a></li>
+        </ul>
+    </nav>
 </header>
 
 <!-- Page Content -->
@@ -739,6 +798,19 @@ document.addEventListener('keydown', function(e) {
 document.getElementById('pdfModal').addEventListener('click', function(e) {
     if (e.target === this) {
         closePdfModal();
+    }
+});
+
+// Mobile menu toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileOpener = document.querySelector('.qodef-mobile-header-opener');
+    const mobileNav = document.querySelector('.qodef-mobile-header-navigation');
+    
+    if (mobileOpener && mobileNav) {
+        mobileOpener.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+        });
     }
 });
 </script>
