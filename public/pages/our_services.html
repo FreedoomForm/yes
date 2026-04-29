@@ -342,69 +342,169 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-services-content" data-element_type="column" data-id="services-content">
 <div class="elementor-widget-wrap elementor-element-populated">
 
-<!-- Services Navigation -->
-<div class="services-nav-wrapper" style="position: sticky; top: 120px; z-index: 100; background: #fff; padding: 15px 0; border-bottom: 1px solid #e0e0e0; margin-bottom: 30px;">
-    <div class="services-nav-container" style="max-width: 1300px; margin: 0 auto; padding: 0 42px;">
-        <div class="services-nav-scroll" style="display: flex; gap: 15px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+<!-- Services with Left Sidebar Navigation -->
+<div class="services-layout-wrapper" style="display: flex; max-width: 1300px; margin: 0 auto; padding: 0 42px; gap: 40px;">
 
-            <a href="#section-1" class="services-nav-btn" data-section="1" style="
-                display: inline-block;
-                padding: 10px 20px;
-                background: #19272b;
-                color: #fff;
-                border-radius: 25px;
-                text-decoration: none;
-                font-weight: 500;
+    <!-- Left Sticky Navigation -->
+    <aside class="services-sidebar" style="
+        width: 280px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 160px;
+        height: fit-content;
+        z-index: 50;
+    ">
+        <nav class="services-nav-vertical" style="
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e8e8e8;
+        ">
+            <h4 style="
                 font-size: 14px;
-                transition: all 0.3s ease;
-                cursor: pointer;
-            ">Инфраструктура и системная интеграция</a>
+                font-weight: 600;
+                color: #85979b;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin: 0 0 20px 0;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #e0e0e0;
+            ">Категории услуг</h4>
+            
+            <ul class="services-nav-list" style="
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            ">
+                <li>
+                    <a href="#section-1" class="services-nav-btn active" data-section="1" style="
+                        display: block;
+                        padding: 14px 16px;
+                        background: #19272b;
+                        color: #fff;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        line-height: 1.4;
+                    ">
+                        <span style="display: flex; align-items: center; gap: 10px;">
+                            <span style="
+                                display: inline-flex;
+                                width: 28px;
+                                height: 28px;
+                                background: rgba(255,255,255,0.2);
+                                border-radius: 6px;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 12px;
+                                font-weight: 600;
+                            ">1</span>
+                            Инфраструктура и системная интеграция
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section-2" class="services-nav-btn" data-section="2" style="
+                        display: block;
+                        padding: 14px 16px;
+                        background: transparent;
+                        color: #19272b;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        line-height: 1.4;
+                    ">
+                        <span style="display: flex; align-items: center; gap: 10px;">
+                            <span style="
+                                display: inline-flex;
+                                width: 28px;
+                                height: 28px;
+                                background: #e0e0e0;
+                                border-radius: 6px;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 12px;
+                                font-weight: 600;
+                            ">2</span>
+                            Заказная разработка
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section-3" class="services-nav-btn" data-section="3" style="
+                        display: block;
+                        padding: 14px 16px;
+                        background: transparent;
+                        color: #19272b;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        line-height: 1.4;
+                    ">
+                        <span style="display: flex; align-items: center; gap: 10px;">
+                            <span style="
+                                display: inline-flex;
+                                width: 28px;
+                                height: 28px;
+                                background: #e0e0e0;
+                                border-radius: 6px;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 12px;
+                                font-weight: 600;
+                            ">3</span>
+                            Бизнес-приложения
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section-4" class="services-nav-btn" data-section="4" style="
+                        display: block;
+                        padding: 14px 16px;
+                        background: transparent;
+                        color: #19272b;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        line-height: 1.4;
+                    ">
+                        <span style="display: flex; align-items: center; gap: 10px;">
+                            <span style="
+                                display: inline-flex;
+                                width: 28px;
+                                height: 28px;
+                                background: #e0e0e0;
+                                border-radius: 6px;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 12px;
+                                font-weight: 600;
+                            ">4</span>
+                            Обслуживание ИТ-инфраструктуры
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
 
-            <a href="#section-2" class="services-nav-btn" data-section="2" style="
-                display: inline-block;
-                padding: 10px 20px;
-                background: #f5f5f5;
-                color: #19272b;
-                border-radius: 25px;
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 14px;
-                transition: all 0.3s ease;
-                cursor: pointer;
-            ">Заказная разработка</a>
-
-            <a href="#section-3" class="services-nav-btn" data-section="3" style="
-                display: inline-block;
-                padding: 10px 20px;
-                background: #f5f5f5;
-                color: #19272b;
-                border-radius: 25px;
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 14px;
-                transition: all 0.3s ease;
-                cursor: pointer;
-            ">Бизнес-приложения</a>
-
-            <a href="#section-4" class="services-nav-btn" data-section="4" style="
-                display: inline-block;
-                padding: 10px 20px;
-                background: #f5f5f5;
-                color: #19272b;
-                border-radius: 25px;
-                text-decoration: none;
-                font-weight: 500;
-                font-size: 14px;
-                transition: all 0.3s ease;
-                cursor: pointer;
-            ">Обслуживание ИТ-инфраструктуры</a>
-
-        </div>
-    </div>
-</div>
-
-<!-- Grouped Services Section -->
-<div class="grouped-services-wrapper" style="max-width: 1300px; margin: 0 auto; padding: 0 42px;">
+    <!-- Main Content Area -->
+    <div class="services-main-content" style="flex: 1; min-width: 0;">
 
     <!-- Section 1: Инфраструктура и системная интеграция -->
     <section id="section-1" class="services-section" style="margin-bottom: 60px;">
@@ -758,16 +858,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </section>
 
-</div>
+    </div><!-- Close services-main-content -->
+</div><!-- Close services-layout-wrapper -->
 
 <style>
     .services-nav-btn:hover {
         background: #19272b !important;
         color: #fff !important;
     }
+    .services-nav-btn:hover span span {
+        background: rgba(255,255,255,0.2) !important;
+    }
     .services-nav-btn.active {
         background: #19272b !important;
         color: #fff !important;
+    }
+    .services-nav-btn.active span span {
+        background: rgba(255,255,255,0.2) !important;
     }
     .service-card:hover {
         transform: translateY(-5px);
@@ -777,19 +884,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     /* Mobile styles */
     @media only screen and (max-width: 1024px) {
-        .services-nav-wrapper {
-            top: 60px !important;
-            padding: 10px 0 !important;
-        }
-        .services-nav-container {
+        .services-layout-wrapper {
+            flex-direction: column !important;
             padding: 0 15px !important;
+        }
+        .services-sidebar {
+            width: 100% !important;
+            position: relative !important;
+            top: 0 !important;
+            margin-bottom: 30px !important;
+        }
+        .services-nav-list {
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+        }
+        .services-nav-list li {
+            flex: 1 1 45%;
+            min-width: 140px;
         }
         .services-nav-btn {
-            padding: 8px 15px !important;
+            padding: 10px 12px !important;
             font-size: 12px !important;
-        }
-        .grouped-services-wrapper {
-            padding: 0 15px !important;
         }
         .services-grid {
             grid-template-columns: 1fr !important;
@@ -821,7 +936,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 const targetSection = document.getElementById(targetId);
                 
                 if (targetSection) {
-                    const offset = 180; // Account for sticky header and nav
+                    const offset = 200; // Account for sticky header
                     const targetPosition = targetSection.offsetTop - offset;
                     
                     window.scrollTo({
@@ -834,7 +949,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
         // Update active button on scroll
         function updateActiveButton() {
-            const scrollPos = window.scrollY + 200;
+            const scrollPos = window.scrollY + 250;
             
             sections.forEach((section, index) => {
                 const sectionTop = section.offsetTop;
@@ -845,12 +960,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     navBtns[index].classList.add('active');
                     
                     // Update button styles
-                    navBtns.forEach(btn => {
-                        btn.style.background = '#f5f5f5';
-                        btn.style.color = '#19272b';
+                    navBtns.forEach((btn, i) => {
+                        if (i === index) {
+                            btn.style.background = '#19272b';
+                            btn.style.color = '#fff';
+                            // Update number badge
+                            const badge = btn.querySelector('span > span');
+                            if (badge) badge.style.background = 'rgba(255,255,255,0.2)';
+                        } else {
+                            btn.style.background = 'transparent';
+                            btn.style.color = '#19272b';
+                            // Update number badge
+                            const badge = btn.querySelector('span > span');
+                            if (badge) badge.style.background = '#e0e0e0';
+                        }
                     });
-                    navBtns[index].style.background = '#19272b';
-                    navBtns[index].style.color = '#fff';
                 }
             });
         }
