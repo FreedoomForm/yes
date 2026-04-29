@@ -1510,7 +1510,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Hide undefined elements
     // Hide CF7 spinner permanently
     var cf7Style = document.createElement('style');
-    cf7Style.innerHTML = '.wpcf7-spinner { display: none !important; } form.submitting .wpcf7-spinner { display: none !important; }';
+    cf7Style.innerHTML = '.wpcf7-spinner { display: none !important; } form.submitting .wpcf7-spinner { display: none !important; } .wpcf7-response-output { display: none !important; }';
     document.head.appendChild(cf7Style);
     
     setTimeout(function() {
