@@ -77,16 +77,6 @@ body  .qodef-widget-block-978b67f7 .qi-block-section-title .qodef-m-title{color:
 <link href="/css/3e6d165e_style.css" id="leroux-style-css" media="all" rel="stylesheet" type="text/css"/>
 <style id="leroux-style-inline-css" type="text/css">
 #qodef-page-outer { margin-top: -124px;}@media only screen and (max-width: 1024px) { #qodef-page-outer { margin-top: -70px;}}#qodef-page-footer-top-area-inner { padding-bottom: 10px;}#qodef-page-footer-bottom-area-inner { padding-top: 0px;padding-bottom: 90px;}body { background-color: #223035;}#qodef-page-inner { padding: 0px 0px 0px 0px;}@media only screen and (max-width: 1024px) { #qodef-page-inner { padding: 0px 0px 0px 0px;}}.qodef-header-sticky .qodef-header-sticky-inner { padding-left: 42px;padding-right: 42px;}#qodef-top-area { background-color: rgba(0,0,0,0.2);}#qodef-top-area-inner { height: 40px;padding-left: 42px;padding-right: 42px;}#qodef-page-header .qodef-header-logo-link { height: 23px;}#qodef-page-mobile-header .qodef-mobile-header-logo-link { height: 23px;}.qodef-search-cover-form { top: -40px;height: calc( 100% + 40px );}.qodef-page-title { background-color: #20282d;}.qodef-page-title .qodef-m-content { padding-top: 124px;}.qodef-page-title .qodef-m-title { color: #ffffff;}@media only screen and (max-width: 1024px) { .qodef-page-title .qodef-m-content { padding-top: 70px;}}.qodef-header--standard #qodef-page-header { background-color: rgba(255,255,255,0);}.qodef-header--standard #qodef-page-header-inner { padding-left: 42px;padding-right: 42px;}.qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(255,255,255,0.22);border-bottom-width: 1px;}
-/* Loading Screen */
-#qodef-loading-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #1a3a2a 0%, #2d5a3d 50%, #1a4a2e 100%); z-index: 99999; display: flex; align-items: center; justify-content: center; transition: opacity 0.5s ease, visibility 0.5s ease; }
-#qodef-loading-screen.fade-out { opacity: 0; visibility: hidden; }
-#qodef-loading-screen .loader { width: 60px; height: 60px; position: relative; }
-#qodef-loading-screen .loader::before, #qodef-loading-screen .loader::after { content: ''; position: absolute; border-radius: 50%; animation: pulse 2s ease-in-out infinite; }
-#qodef-loading-screen .loader::before { width: 100%; height: 100%; background: rgba(255,255,255,0.1); animation-delay: 0s; }
-#qodef-loading-screen .loader::after { width: 70%; height: 70%; top: 15%; left: 15%; background: rgba(255,255,255,0.2); animation-delay: 0.5s; }
-#qodef-loading-screen .loader-inner { position: absolute; width: 40%; height: 40%; top: 30%; left: 30%; background: #fff; border-radius: 50%; animation: pulse 2s ease-in-out infinite; animation-delay: 1s; }
-@keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 1; } }
-
 /*# sourceURL=leroux-style-inline-css */
 </style>
 <link href="/css/da238135_elementor.min.css" id="leroux-core-elementor-css" media="all" rel="stylesheet" type="text/css"/>
@@ -980,23 +970,6 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
         });
     }
 </script>
-<!-- Loading Screen -->
-<div id="qodef-loading-screen">
-    <div class="loader">
-        <div class="loader-inner"></div>
     </div>
 </div>
 <script>
-// Loading Screen Fade Out
-window.addEventListener('load', function() {
-    var loadingScreen = document.getElementById('qodef-loading-screen');
-    if (loadingScreen) {
-        setTimeout(function() {
-            loadingScreen.classList.add('fade-out');
-            setTimeout(function() { loadingScreen.remove(); }, 500);
-        }, 300);
-    }
-});
-</script>
-</body>
-</html>
