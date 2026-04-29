@@ -45,13 +45,14 @@
 .qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(0,0,0,0.1);border-bottom-width: 1px;}
 #qodef-page-header { height: 0 !important; min-height: 0 !important; overflow: visible !important; }
 #qodef-page-header-inner { display: none !important; }
-.qodef-header-sticky { top: 40px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(0) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; pointer-events: auto !important; display: block !important; }
-.qodef-header-sticky { min-height: 120px !important; height: auto !important; }
-.qodef-header-sticky .qodef-header-sticky-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; padding: 35px 42px !important; min-height: 120px !important; }
+.qodef-header-sticky { top: 0 !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(-100%) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 0 !important; pointer-events: none !important; display: block !important; }
+.qodef-header-sticky.qodef--show { transform: translateY(0) !important; opacity: 1 !important; pointer-events: auto !important; }
+.qodef-header-sticky { min-height: 90px !important; height: auto !important; }
+.qodef-header-sticky .qodef-header-sticky-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; padding: 25px 42px !important; min-height: 90px !important; }
 .qodef-header-sticky .qodef-header-logo-link { height: auto !important; }
-.qodef-header-sticky .qodef-header-logo-link img { height: 43px !important; width: auto !important; max-height: none !important; }
-.qodef-header-sticky .qodef-header-navigation { flex: 1 !important; display: flex !important; justify-content: center !important; font-size: 24px !important; }
-.qodef-header-sticky.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
+.qodef-header-sticky .qodef-header-logo-link img { height: 35px !important; width: auto !important; max-height: none !important; }
+.qodef-header-sticky .qodef-header-navigation { flex: 1 !important; display: flex !important; justify-content: center !important; font-size: 15px !important; }
+.qodef-header-sticky .qodef-header-navigation .menu { gap: 25px !important; }
 @media only screen and (max-width: 1024px) {
     /* Hide desktop header elements on mobile */
     #qodef-top-area { display: none !important; }
@@ -66,8 +67,9 @@
     #qodef-page-outer { margin-top: 60px !important; }
 }
 body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
-body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
-#qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; }
+body.qodef-header--sticky-display .qodef-header-sticky.qodef--show { display: block !important; }
+#qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; transition: transform 0.3s ease, opacity 0.3s ease !important; }
+#qodef-top-area.hide { transform: translateY(-100%) !important; opacity: 0 !important; }
 #qodef-top-area a { color: #ffffff !important; }
 #qodef-page-outer { margin-top: 40px !important; }
 #qodef-top-area:after { content: ''; position: absolute; bottom: -20px; left: 0; right: 0; height: 20px; background-color: #19272b !important; z-index: -1; }
@@ -896,6 +898,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Desktop sticky header
+    const stickyHeader = document.querySelector('.qodef-header-sticky');
+    const topArea = document.querySelector('#qodef-top-area');
+    const desktopScrollThreshold = 150;
+    
     // Mobile header hide/show on scroll
     const mobileHeader = document.querySelector('#qodef-page-mobile-header');
     let lastScrollTop = 0;
@@ -905,6 +912,20 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentScroll = window.scrollY;
         const isMobile = window.innerWidth <= 1024;
         
+        // Desktop sticky header behavior
+        if (!isMobile) {
+            if (currentScroll > desktopScrollThreshold) {
+                // Hide top area and show sticky header
+                if (topArea) topArea.classList.add('hide');
+                if (stickyHeader) stickyHeader.classList.add('qodef--show');
+            } else {
+                // Show top area and hide sticky header
+                if (topArea) topArea.classList.remove('hide');
+                if (stickyHeader) stickyHeader.classList.remove('qodef--show');
+            }
+        }
+        
+        // Mobile header behavior
         if (currentScroll > scrollThreshold && isMobile) {
             if (currentScroll > lastScrollTop) {
                 // Scrolling down
