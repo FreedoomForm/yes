@@ -57,13 +57,13 @@
     #qodef-top-area { display: none !important; }
     .qodef-header-sticky { display: none !important; }
     
-    /* Hide mobile sticky header - show only as static */
-    #qodef-page-mobile-header { display: block !important; position: relative !important; z-index: 9999 !important; background-color: #ffffff !important; padding: 12px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; }
-    #qodef-page-mobile-header.hide { display: block !important; opacity: 1 !important; transform: none !important; }
+    /* Mobile sticky header */
+    #qodef-page-mobile-header { display: block !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 9999 !important; background-color: #ffffff !important; padding: 12px 20px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; transform: translateY(0) !important; }
+    #qodef-page-mobile-header.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
     #qodef-page-mobile-header-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; }
     .qodef-mobile-header-logo-link img { height: 35px !important; width: auto !important; }
     .qodef-mobile-header-opener .qodef-m-line { background-color: #19272b !important; }
-    #qodef-page-outer { margin-top: 0 !important; }
+    #qodef-page-outer { margin-top: 60px !important; }
 }
 body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
 body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
@@ -601,18 +601,6 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
     </div>
 </section>
 
-<!-- Contact Section -->
-<section class="compliance-contact">
-    <div class="container">
-        <h2>Связаться с комплаенс-отделом</h2>
-        <p>Любые вопросы в отношении комплаенс в Century Intelligence, уведомления о возможных нарушениях положений Комплаенс-политики и иных внутренних политик и регламентов, сообщение о недопустимых действиях или событиях можно направлять на электронную почту комплаенс-отдела.</p>
-        <a href="mailto:compliance@centuryintelligence.com" class="contact-email">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/></svg>
-            compliance@centuryintelligence.com
-        </a>
-    </div>
-</section>
-
 <!-- Footer -->
 <footer id="qodef-page-footer" role="contentinfo">
 <div id="qodef-page-footer-top-area">
@@ -908,7 +896,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Mobile header - no sticky behavior, just static header
+    // Mobile header hide/show on scroll
+    const mobileHeader = document.querySelector('#qodef-page-mobile-header');
+    let lastScrollTop = 0;
+    const scrollThreshold = 100;
+    
+    window.addEventListener('scroll', function() {
+        const currentScroll = window.scrollY;
+        const isMobile = window.innerWidth <= 1024;
+        
+        if (currentScroll > scrollThreshold && isMobile) {
+            if (currentScroll > lastScrollTop) {
+                // Scrolling down
+                if (mobileHeader) mobileHeader.classList.add('hide');
+            } else if (currentScroll < lastScrollTop) {
+                // Scrolling up
+                if (mobileHeader) mobileHeader.classList.remove('hide');
+            }
+        } else {
+            // Near top - always show header
+            if (mobileHeader) mobileHeader.classList.remove('hide');
+        }
+        
+        lastScrollTop = currentScroll;
+    });
 
     // Back to top button
     const backToTopBtn = document.getElementById('qodef-back-to-top');
