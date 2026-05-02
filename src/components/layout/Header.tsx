@@ -83,11 +83,11 @@ export function Header() {
 
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-start justify-between pt-[30px] pb-4">
           {/* Logo */}
           <button
             onClick={() => navigateTo('main-home')}
-            className="flex items-center gap-3 mt-[30px]"
+            className="flex items-center gap-3"
           >
             <Image
               src="https://leroux.qodeinteractive.com/wp-content/uploads/2023/01/logo-dark-skin.png"
