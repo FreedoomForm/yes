@@ -83,7 +83,7 @@ export function Header() {
 
       {/* Main Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-start justify-between pt-[30px] pb-4">
+        <div className="flex items-start justify-between h-20">
           {/* Logo */}
           <button
             onClick={() => navigateTo('main-home')}
@@ -94,7 +94,7 @@ export function Header() {
               alt="Leroux Logo"
               width={120}
               height={40}
-              className="h-10 w-auto"
+              className="h-10 w-auto !mt-[30px]"
               priority
             />
           </button>
