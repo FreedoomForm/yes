@@ -127,8 +127,16 @@ sr7-module, .wp-block-themepunch-revslider { display: none !important; }
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    min-height: 600px !important;
+    min-height: calc(100vh + 160px) !important;
+    height: auto !important;
     position: relative !important;
+}
+/* Make hero section fill viewport */
+.elementor-element-6a8c22e .elementor-container,
+.elementor-element-6a8c22e .elementor-column,
+.elementor-element-6a8c22e .elementor-widget-wrap {
+    min-height: calc(100vh + 160px) !important;
+    height: auto !important;
 }
 
 /*# sourceURL=leroux-style-inline-css */
