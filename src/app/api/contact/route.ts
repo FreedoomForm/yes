@@ -1,25 +1,8 @@
 import { NextResponse } from "next/server";
-import fs from 'fs';
-import path from 'path';
 
-const TELEGRAM_BOT_TOKEN = "8345021383:AAFhAMfb-TDK3dc4nGsagl-IyXqW9wPjHMo";
-const CHAT_IDS_FILE = path.join(process.cwd(), 'chat_ids.json');
-
-interface TelegramUpdate {
-  update_id: number;
-  message?: {
-    chat: {
-      id: number;
-      type: string;
-    };
-    from?: {
-      id: number;
-      is_bot: boolean;
-      first_name: string;
-    };
-    text?: string;
-  };
-}
+// Telegram Bot Token and Chat ID from environment variables
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8345021383:AAFhAMfb-TDK3dc4nGsagl-IyXqW9wPjHMo";
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || ""; // Add your chat ID in Vercel env vars
 
 interface FormData {
   name: string;
@@ -27,76 +10,8 @@ interface FormData {
   message: string;
 }
 
-// Read saved chat IDs from file
-function getSavedChatIds(): number[] {
-  try {
-    if (fs.existsSync(CHAT_IDS_FILE)) {
-      const data = fs.readFileSync(CHAT_IDS_FILE, 'utf-8');
-      return JSON.parse(data);
-    }
-  } catch (error) {
-    console.error("Error reading chat IDs file:", error);
-  }
-  return [];
-}
-
-// Save chat IDs to file
-function saveChatIds(chatIds: number[]): void {
-  try {
-    fs.writeFileSync(CHAT_IDS_FILE, JSON.stringify(chatIds, null, 2));
-  } catch (error) {
-    console.error("Error saving chat IDs file:", error);
-  }
-}
-
-// Get chat IDs from Telegram API and save them
-async function fetchAndSaveChatIds(): Promise<number[]> {
-  try {
-    const response = await fetch(
-      `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
-    const data = await response.json();
-
-    if (!data.ok) {
-      console.error("Telegram API error:", data);
-      return getSavedChatIds();
-    }
-
-    const updates: TelegramUpdate[] = data.result || [];
-    const newChatIds = new Set<number>();
-
-    updates.forEach((update) => {
-      if (update.message?.chat?.id) {
-        newChatIds.add(update.message.chat.id);
-      }
-    });
-
-    // Merge with saved chat IDs
-    const savedIds = getSavedChatIds();
-    const allIds = new Set([...savedIds, ...Array.from(newChatIds)]);
-    const finalIds = Array.from(allIds);
-
-    // Save if we have new IDs
-    if (finalIds.length > 0) {
-      saveChatIds(finalIds);
-    }
-
-    return finalIds;
-  } catch (error) {
-    console.error("Error fetching chat IDs:", error);
-    return getSavedChatIds();
-  }
-}
-
 async function sendTelegramMessage(
-  chatId: number,
+  chatId: number | string,
   text: string
 ): Promise<boolean> {
   try {
@@ -123,6 +38,42 @@ async function sendTelegramMessage(
   }
 }
 
+// Get chat IDs from Telegram API
+async function getChatIdsFromApi(): Promise<number[]> {
+  try {
+    const response = await fetch(
+      `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    const data = await response.json();
+
+    if (!data.ok) {
+      console.error("Telegram API error:", data);
+      return [];
+    }
+
+    const updates = data.result || [];
+    const chatIds = new Set<number>();
+
+    updates.forEach((update: any) => {
+      if (update.message?.chat?.id) {
+        chatIds.add(update.message.chat.id);
+      }
+    });
+
+    return Array.from(chatIds);
+  } catch (error) {
+    console.error("Error fetching chat IDs:", error);
+    return [];
+  }
+}
+
 export async function POST(request: Request) {
   try {
     const body: FormData = await request.json();
@@ -136,19 +87,29 @@ export async function POST(request: Request) {
       );
     }
 
-    // Get chat IDs (from API + saved)
-    const chatIds = await fetchAndSaveChatIds();
+    // Get chat IDs
+    let chatIds: (number | string)[] = [];
+    
+    // First try env variable
+    if (TELEGRAM_CHAT_ID) {
+      chatIds = TELEGRAM_CHAT_ID.split(',').map(id => id.trim());
+    }
+    
+    // If no env variable, try API
+    if (chatIds.length === 0) {
+      chatIds = await getChatIdsFromApi();
+    }
 
     if (chatIds.length === 0) {
       return NextResponse.json(
-        { error: "Сначала отправьте /start боту в Telegram" },
+        { error: "Сначала отправьте /start боту в Telegram или добавьте TELEGRAM_CHAT_ID в переменные окружения" },
         { status: 400 }
       );
     }
 
     // Format message for Telegram
     const telegramMessage = `
-<b>Новое сообщение с сайта Century Intelligence</b>
+<b>🆕 Новое сообщение с сайта Century Intelligence</b>
 
 <b>Имя:</b> ${name}
 <b>Телефон:</b> ${phone}
@@ -183,10 +144,10 @@ ${message}
 }
 
 export async function GET() {
-  // Refresh chat IDs when GET is called
-  const chatIds = await fetchAndSaveChatIds();
+  const chatIds = await getChatIdsFromApi();
   return NextResponse.json({
     message: "Contact API endpoint. Use POST to submit form data.",
     chatIdsCount: chatIds.length,
+    hint: "Set TELEGRAM_CHAT_ID env var for better reliability on Vercel"
   });
 }
