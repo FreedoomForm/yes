@@ -109,6 +109,24 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 #qodef-page-outer { margin-top: 40px !important; }
 #qodef-top-area:after { content: ''; position: absolute; bottom: -20px; left: 0; right: 0; height: 20px; background-color: #19272b !important; z-index: -1; }
 .qodef-content-grid-1300 { margin-top: -20px !important; }
+
+/* Client logos - black and white */
+.elementor-widget-image img,
+.qodef-m-image img,
+img[src*="client_"],
+img[src*="client-"] {
+    filter: grayscale(100%) !important;
+    -webkit-filter: grayscale(100%) !important;
+    transition: filter 0.3s ease !important;
+}
+.elementor-widget-image img:hover,
+.qodef-m-image img:hover,
+img[src*="client_"]:hover,
+img[src*="client-"]:hover {
+    filter: grayscale(0%) !important;
+    -webkit-filter: grayscale(0%) !important;
+}
+
 /*# sourceURL=leroux-style-inline-css */
 </style>
 <link href="/css/da238135_elementor.min.css" id="leroux-core-elementor-css" media="all" rel="stylesheet" type="text/css"/>
