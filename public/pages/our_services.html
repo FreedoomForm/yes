@@ -110,6 +110,14 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 #qodef-top-area:after { content: ''; position: absolute; bottom: -20px; left: 0; right: 0; height: 20px; background-color: #19272b !important; z-index: -1; }
 .qodef-content-grid-1300 { margin-top: -20px !important; }
 /*# sourceURL=leroux-style-inline-css */
+/* Hero section - fill entire viewport below headers */
+.elementor-element-c083e7e,
+.elementor-element-c083e7e .elementor-container,
+.elementor-element-c083e7e .elementor-column,
+.elementor-element-c083e7e .elementor-widget-wrap {
+    min-height: calc(100vh + 200px) !important;
+    height: auto !important;
+}
 </style>
 <link href="/css/da238135_elementor.min.css" id="leroux-core-elementor-css" media="all" rel="stylesheet" type="text/css"/>
 <link href="/css/e19887d7_elementor-icons.min.css" id="elementor-icons-css" media="all" rel="stylesheet" type="text/css"/>
@@ -347,10 +355,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="qodef-grid-inner">
 <div class="qodef-grid-item qodef-page-content-section qodef-col--content">
 <div class="elementor elementor-6474" data-elementor-id="6474" data-elementor-type="wp-page">
-<section class="elementor-section elementor-top-section elementor-element elementor-element-c083e7e elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-element_type="section" data-id="c083e7e" data-settings='{"background_background":"classic"}'>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-c083e7e elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-element_type="section" data-id="c083e7e" data-settings='{"background_background":"classic"}' style="min-height: calc(100vh + 200px) !important; height: auto !important;">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8e39d59" data-element_type="column" data-id="8e39d59">
-<div class="elementor-widget-wrap" style="position: relative; min-height: calc(100vh + 140px); display: flex; flex-direction: column; justify-content: center; padding: 40px 42px; padding-bottom: 180px;">
+<div class="elementor-widget-wrap" style="position: relative; min-height: calc(100vh + 200px) !important; height: auto !important; display: flex; flex-direction: column; justify-content: center; padding: 40px 42px; padding-bottom: 180px;">
     <h1 style="font-size: 48px; font-weight: 600; color: #E8E4E0; margin: 0 0 25px 0; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">Инфраструктура и системная интеграция</h1>
     <p style="font-size: 27px; color: #E8E4E0; margin: 0; max-width: 800px; line-height: 1.5; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">Комплекс услуг, направленных на создание, настройку и объединение различных ИТ-систем и оборудования в единую, слаженно работающую инфраструктуру</p>
 </div>
