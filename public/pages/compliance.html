@@ -71,9 +71,11 @@
     .qodef-header-sticky { display: none !important; }
 }
 
-/* Show sticky header */
-body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
-body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
+/* Show sticky header - only on desktop */
+@media only screen and (min-width: 1025px) {
+    body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
+    body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
+}
 
 /* Top area - fixed, same as home page */
 #qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; height: 40px !important; }
