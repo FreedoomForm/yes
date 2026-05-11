@@ -24,7 +24,7 @@
 <link href="/css/1159_leroux-core.min.css" id="leroux-core-style-css" media="all" rel="stylesheet" type="text/css"/>
 <link href="/css/6488_style.css" id="leroux-style-css" media="all" rel="stylesheet" type="text/css"/>
 <style id="leroux-style-inline-css" type="text/css">
-#qodef-page-outer { margin-top: 100px;}
+#qodef-page-outer { margin-top: 140px;}
 @media only screen and (max-width: 1024px) { #qodef-page-outer { margin-top: 70px;}}
 #qodef-page-footer-top-area-inner { padding-bottom: 10px;}
 #qodef-page-footer-bottom-area-inner { padding-top: 0px;padding-bottom: 90px;}
@@ -44,7 +44,7 @@
 .qodef-header--standard #qodef-page-header-inner:after { border-bottom-color: rgba(0,0,0,0.1);border-bottom-width: 1px;}
 #qodef-page-header { height: 0 !important; min-height: 0 !important; overflow: visible !important; }
 #qodef-page-header-inner { display: none !important; }
-.qodef-header-sticky { top: 0 !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(0) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; pointer-events: auto !important; display: block !important; min-height: 100px !important; height: auto !important; }
+.qodef-header-sticky { top: 40px !important; background-color: #ffffff !important; position: fixed !important; left: 0 !important; right: 0 !important; z-index: 1000 !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; transform: translateY(0) !important; transition: transform 0.3s ease, opacity 0.3s ease !important; opacity: 1 !important; pointer-events: auto !important; display: block !important; min-height: 100px !important; height: auto !important; }
 .qodef-header-sticky.hide { transform: translateY(-100%) !important; opacity: 0 !important; pointer-events: none !important; }
 .qodef-header-sticky { min-height: 100px !important; height: auto !important; }
 .qodef-header-sticky .qodef-header-sticky-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; padding: 25px 42px !important; min-height: 100px !important; }
@@ -54,6 +54,9 @@
 .qodef-header-sticky .qodef-header-navigation .menu { gap: 30px !important; }
 @media only screen and (max-width: 1024px) {
     #qodef-page-outer { margin-top: 70px !important; }
+    
+    /* Hide top header on mobile */
+    #qodef-top-area { display: none !important; }
     
     
     /* Mobile sticky header */
@@ -72,6 +75,20 @@
 /* Show sticky header */
 body.qodef-header--sticky-display .qodef-header-sticky { display: block !important; }
 body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !important; }
+
+/* Top area - fixed, same as home page */
+#qodef-top-area { background-color: #19272b !important; position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 101 !important; height: 40px !important; }
+#qodef-top-area a { color: #ffffff !important; }
+#qodef-top-area:after { content: ''; position: absolute; bottom: -20px; left: 0; right: 0; height: 20px; background-color: #19272b !important; z-index: -1; }
+#qodef-top-area-inner { display: flex !important; justify-content: space-between !important; align-items: center !important; height: 40px !important; padding-left: 42px !important; padding-right: 42px !important; }
+.qodef-widget-holder { display: flex !important; align-items: center !important; }
+.qodef-widget-holder.qodef--left, .qodef-widget-holder.qodef--right { display: flex !important; align-items: center !important; }
+.qodef-widget-holder p { margin: 0 !important; }
+.qodef-icon-holder { display: inline-flex !important; align-items: center !important; vertical-align: middle !important; }
+.qodef-icon { color: #ffffff !important; }
+
+/* Page outer margin for top area */
+#qodef-page-outer { margin-top: 140px !important; }
 
 
 
@@ -102,8 +119,8 @@ body.qodef-header--sticky-display .qodef-header-sticky.hide { display: block !im
 /* Compliance page styles */
 .compliance-hero {
     background: linear-gradient(135deg, #19272b 0%, #2d4a50 100%);
-    padding: 140px 0 80px;
-    margin-top: -40px;
+    padding: 80px 0 80px;
+    margin-top: 0;
 }
 @media only screen and (max-width: 1024px) {
     .compliance-hero {
@@ -431,6 +448,34 @@ var qodefGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"\u003Csvg class=\
 </script>
 </head>
 <body class="qodef-header--sticky-display">
+
+<!-- Top Bar (fixed, same as home page) -->
+<div id="qodef-top-area" class="qodef-background--blur">
+    <div id="qodef-top-area-inner">
+        <div class="qodef-widget-holder qodef--left">
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-ionicons ion-md-cube qodef-icon qodef-e" style="font-size: 14px"></span>
+            </span>
+            <p style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff; display: inline;">Century Intelligence — для всех <a href="/pages/our_services.html"><u>ваших бизнес</u></a> целей</p>
+        </div>
+        <div class="qodef-widget-holder qodef--right">
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-ionicons ion-ios-globe qodef-icon qodef-e" style="font-size: 15px"></span>
+            </span>
+            <p style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff; display: inline;">Ташкент, Узбекистан</p>
+            <span style="margin: 0 10px;"></span>
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="top: -1px; margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-elegant-icons icon_mail_alt qodef-icon qodef-e" style="font-size: 14px"></span>
+            </span>
+            <a style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff;" href="mailto:info@centuryintelligence.com">info@centuryintelligence.com</a>
+            <span style="margin: 0 10px;"></span>
+            <span class="qodef-shortcode qodef-m qodef-icon-holder qodef-size--default qodef-layout--normal" style="top: -1px; margin: 0px 10px 0px 0px">
+                <span class="qodef-icon-elegant-icons icon_phone" style="font-size: 14px"></span>
+            </span>
+            <a style="font-family: 'DM Sans', sans-serif; font-size: 14px; color: #ffffff;" href="tel:+998990008991">+998 99 000 89 91</a>
+        </div>
+    </div>
+</div>
 
 <!-- Sticky Header -->
 <div class="qodef-header-sticky qodef-custom-header-layout qodef-appearance--down">
